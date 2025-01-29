@@ -1,0 +1,66 @@
+GOLOSINAS
+    Sector - Golosinas
+        Alfajores
+            Simples
+                Varios Sabores
+            Triples
+                Varios Sabores
+            Bizcochuelos
+                Varios Sabores
+        Bombones
+            Con Alcohol
+                Varios
+            Sin Alcohol
+                Varios
+        Caramelos & Chupetines
+            Blandos
+                Varios
+            Duros
+                Varios
+            Chupetines
+                Varios
+            Confintes
+                Varios
+        Cereales
+            Barritas & Bolsas
+                Varias
+        Chicles
+            Comun
+                Varios
+            Ligth
+                Varios
+        Chocolates
+            Golosinas Varias
+                Varios
+            Cocina
+                Varios
+            Taza
+                Varios
+        Galletitas
+            Crackers
+                Comunes
+                Salvado
+                Light
+            Dulces
+                Comunes
+                Light
+                Obleas
+                Vainillas
+            Especiales
+                Saladas
+                Saborizadas
+                Otras
+        Postres & Turrones
+            Pasta de Mani
+                Varios
+            Turrones
+                Varios
+            Crema de Avellanas
+        Promociones
+            Varias
+                Varias
+        Budines
+            Varios
+        Varios
+            Varios
+                Dif.Precio
