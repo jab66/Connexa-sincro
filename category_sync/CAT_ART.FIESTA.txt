@@ -1,0 +1,25 @@
+ART.FIESTA
+    Sector - Golosinas
+        Budines
+            Varios
+        Roscas de Pascua
+            Varias
+        Pan Dulce
+            Con Fruta
+            Sin Fruta
+        Confites & Turrones
+            Varios
+            Confituras
+            Turrones
+        Frutas Secas
+            Varios
+        Huevos de Pascuas
+            Varios
+        Cajas Navideñas
+            Varios
+        Promociones
+            Varias
+        Varios
+            Varios
+                Dif.Precio
+    Kosher
