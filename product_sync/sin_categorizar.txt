@@ -1,0 +1,563 @@
+Articulo: 6030, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIO 80 RACK
+Articulo: 6032, Rama: 1-13-3818-4212, Descripcion: CINTA PEMBALAR BCO.
+Articulo: 6588, Rama: 1-13-3818-4211, Descripcion: GUANTES MOTEADOS 08
+Articulo: 17073, Rama: 1-13-3818-4212, Descripcion: COM.EPSONTM20II
+Articulo: 18478, Rama: 1-13-3818-4212, Descripcion: KIT ARNES DE SEGURIDAD
+Articulo: 18479, Rama: 1-13-3818-4212, Descripcion: GUANTE DIELECTRICO
+Articulo: 18618, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIO A4 PARA CANASTO 1.20X1.00
+Articulo: 21693, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIO A3 PET SECTOR TEXTIL
+Articulo: 21740, Rama: 1-13-3818-4212, Descripcion: FOSFOROS SED METAL
+Articulo: 23379, Rama: 1-13-3818-4212, Descripcion: ALMIBAR CANUELAS
+Articulo: 23400, Rama: 1-13-3818-4212, Descripcion: PAPEL SILICONADO X 500
+Articulo: 30598, Rama: 1-13-3818-4212, Descripcion: MERCADERIAS VARIAS
+Articulo: 60002, Rama: 1-13-3818-4212, Descripcion: BOLSA TERMO ESPECIAL
+Articulo: 60003, Rama: 1-13-3818-4212, Descripcion: TERMOCONTRAIBLE 25CM
+Articulo: 45373, Rama: 1-13-3818-4212, Descripcion: ESCALE.MANGRULLO DB
+Articulo: 45634, Rama: -5130-5131-5135, Descripcion: JUGO ARANDANO CON STEVIA  X 1.5LT
+Articulo: 45635, Rama: -5130-5131-5135, Descripcion: JUGO ARANDANO SIN STEVIA X 1.5LT
+Articulo: 50103, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIO PEROQUES
+Articulo: 50104, Rama: 1-13-3818-4211, Descripcion: CASCO DE SEGURIDAD
+Articulo: 50105, Rama: 1-13-3818-4212, Descripcion: PORTA PRECIO EN L PARA GONDOLA PERFUMERIA
+Articulo: 50140, Rama: 1-13-3818-4212, Descripcion: RECINTO DE TRABA METALICA AMARILLO
+Articulo: 50141, Rama: 1-13-3818-4212, Descripcion: CAJA ARCHIVO CT ARC
+Articulo: 50143, Rama: 1-13-3818-4212, Descripcion: BOLSIN NEGRO 60X40
+Articulo: 50457, Rama: 1-13-3818-4212, Descripcion: BOAS VERDES PINO X 10 MTS.
+Articulo: 50458, Rama: 1-13-3818-4212, Descripcion: BOAS METAL X 10 MTS.
+Articulo: 50459, Rama: 1-13-3818-4212, Descripcion: CORONAS DECORADAS
+Articulo: 50460, Rama: 1-13-3818-4212, Descripcion: BOLSAS GLOBO N 8X12
+Articulo: 60001, Rama: 1-13-3818-4212, Descripcion: TONER 5949-13201160
+Articulo: 60000, Rama: 1-13-3818-4212, Descripcion: PAPEL A4 RESMA 500X80 GRS. PARA CONSUMO INTERNO
+Articulo: 60004, Rama: 1-13-3818-4212, Descripcion: TERMOCONTRAIBLE 30CM
+Articulo: 60005, Rama: 1-13-3818-4212, Descripcion: BOLS.AZUC.64 CMX500U
+Articulo: 60006, Rama: 1-13-3818-4212, Descripcion: TERMOCONTRAIBLE 40CM
+Articulo: 60007, Rama: 1-13-3818-4212, Descripcion: TERMOCONTRAIBLE 50CM
+Articulo: 60008, Rama: 1-13-3818-4212, Descripcion: RESINITE DE 400
+Articulo: 60009, Rama: 1-13-3818-4212, Descripcion: RESINITE 300
+Articulo: 60010, Rama: 1-13-3818-4212, Descripcion: TERMOCONTRAIBLE 60CM
+Articulo: 60011, Rama: 1-13-3818-4212, Descripcion: FILM STRETCH
+Articulo: 60012, Rama: 1-13-3818-4212, Descripcion: BOLSA LEGUMB 54X500U
+Articulo: 60013, Rama: 1-13-3818-4212, Descripcion: RECIBOS DE SUELDO
+Articulo: 60014, Rama: 1-13-3818-4212, Descripcion: PRECINTO ESPE.X 100
+Articulo: 60015, Rama: 1-13-3818-4212, Descripcion: PRECINTO PLASTICO AJUSTABLE X 100 UNID
+Articulo: 60017, Rama: 1-13-3818-4212, Descripcion: ROLLO FISCAL Q.76 MM
+Articulo: 60018, Rama: 1-13-3818-4212, Descripcion: CARTEL SEG. 30X40
+Articulo: 60019, Rama: 1-13-3818-4212, Descripcion: GARRAFA AUTOEL.VACIA
+Articulo: 60021, Rama: 1-13-3818-4212, Descripcion: AFICHE CUBRE PALLETS
+Articulo: 60022, Rama: 1-13-3818-4212, Descripcion: CAJA FUERTE BUZON
+Articulo: 60023, Rama: 1-13-3818-4212, Descripcion: CANASTA PESPECIFICO
+Articulo: 60025, Rama: 1-13-3818-4212, Descripcion: CAJON CTAPA ESPECIF
+Articulo: 60026, Rama: 1-13-3818-4212, Descripcion: CAJA FUERTE MOD B120
+Articulo: 60027, Rama: 1-13-3818-4212, Descripcion: TAPAS PARA CAJAS
+Articulo: 60028, Rama: 1-13-3818-4212, Descripcion: TINTA 940 NEG-HP8500
+Articulo: 60029, Rama: 1-13-3818-4212, Descripcion: CINT HASAGTC OK-182
+Articulo: 60030, Rama: 1-13-3818-4212, Descripcion: LIMPIADOR NEUTRO 30 LT
+Articulo: 60031, Rama: 1-13-3818-4212, Descripcion: AFICHE N.D. CUBRE P
+Articulo: 60032, Rama: 1-13-3818-4212, Descripcion: ETIQ. TERM.60X60X500
+Articulo: 60033, Rama: 1-13-3818-4212, Descripcion: ETIQ.ILUS.28X20X6000
+Articulo: 60050, Rama: 1-13-3818-4212, Descripcion: PRECINTO NTROQ X100
+Articulo: 60051, Rama: 1-13-3818-4212, Descripcion: PRECINTO DE TRABA METALICA
+Articulo: 60056, Rama: 1-13-3818-4212, Descripcion: PAPEL BLANCO
+Articulo: 60060, Rama: 1-13-3818-4212, Descripcion: CALCU. CHICA PBAL.
+Articulo: 60062, Rama: 1-13-3818-4212, Descripcion: TONER CE390 HP
+Articulo: 60065, Rama: 1-13-3818-4212, Descripcion: POLICARB. 8X1.45X95
+Articulo: 60089, Rama: 1-13-3818-4212, Descripcion: CALCULADORA MEDIANA
+Articulo: 60090, Rama: 1-13-3818-4212, Descripcion: CALCU.CIFRA INTENSIV
+Articulo: 60092, Rama: 1-13-3818-4212, Descripcion: CONTADORA DE BILL.
+Articulo: 60093, Rama: 1-13-3818-4212, Descripcion: LUZ AZUL  PCAJA
+Articulo: 60094, Rama: 1-13-3818-4212, Descripcion: BOLSA PCUP TAR X200
+Articulo: 60095, Rama: 1-13-3818-4212, Descripcion: TONER USADO
+Articulo: 60099, Rama: 1-13-3818-4212, Descripcion: BOLSINES PFACT
+Articulo: 60104, Rama: 1-13-3818-4212, Descripcion: CARTEL SEG.L 30X40CM
+Articulo: 60106, Rama: 1-13-3818-4212, Descripcion: CARTEL STD 20X36 CM
+Articulo: 60108, Rama: 1-13-3818-4212, Descripcion: SECUESTRA.EPOLVOX5L
+Articulo: 60109, Rama: 1-13-3818-4212, Descripcion: TINTA 940 COL-HP8500
+Articulo: 60110, Rama: 1-13-3818-4212, Descripcion: CUTERS
+Articulo: 60111, Rama: 1-13-3818-4212, Descripcion: INSERT - FOLDER
+Articulo: 60112, Rama: 1-13-3818-4212, Descripcion: ROLLO FISCAL TERMICO
+Articulo: 60113, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIO PLANO CH
+Articulo: 60114, Rama: 1-13-3818-4212, Descripcion: PRECINTO SENASA
+Articulo: 60115, Rama: 1-13-3818-4212, Descripcion: CIZAYA - GUILLOTINA
+Articulo: 60116, Rama: 1-13-3818-4212, Descripcion: GARRAFA AUTOEL.LLENA
+Articulo: 60117, Rama: 1-13-3818-4212, Descripcion: TAMBOR 250LT240MM-F
+Articulo: 60120, Rama: 1-13-3818-4212, Descripcion: CINTA DE EMBALAR 36X100
+Articulo: 60122, Rama: 1-13-3818-4212, Descripcion: FAJA BILLETE X500UN
+Articulo: 60131, Rama: 1-13-3818-4212, Descripcion: ETI.DUR.OKEYX820MIL
+Articulo: 60132, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.OKEYX2900
+Articulo: 60133, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.COINX820MIL
+Articulo: 60134, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.COINCOX2900
+Articulo: 60135, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.OKEY.TRX820
+Articulo: 60136, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.OKE.TRX2900
+Articulo: 60137, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.COIN.TRX820
+Articulo: 60138, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.COI.TRX2900
+Articulo: 60139, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.EMETH X820
+Articulo: 60140, Rama: 1-13-3818-4212, Descripcion: ETIQ.PERA OKEYX820
+Articulo: 60141, Rama: 1-13-3818-4212, Descripcion: ETIQ.PERA COINCOX820
+Articulo: 60142, Rama: 1-13-3818-4212, Descripcion: ETIQ.COC.GIOC4FX820
+Articulo: 60143, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.GIOC.DIE820
+Articulo: 60144, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.AISOLX820
+Articulo: 60145, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.PIACEREX820
+Articulo: 60146, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.AIS.DIEX820
+Articulo: 60147, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.PIAC.DIE820
+Articulo: 60148, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.PIAC.DIE820
+Articulo: 60149, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.INCAX820
+Articulo: 60150, Rama: 1-13-3818-4212, Descripcion: ETIQ.DUR.M.ROJOX820
+Articulo: 60151, Rama: 1-13-3818-4212, Descripcion: ETIQ.PERA.PIAC.X820
+Articulo: 60152, Rama: 1-13-3818-4212, Descripcion: ETIQ.PERA M.ROJOX820
+Articulo: 60153, Rama: 1-13-3818-4212, Descripcion: CAJA.STD.DUR.OKEY820
+Articulo: 60154, Rama: 1-13-3818-4212, Descripcion: CAJA.STD.DUR.OKEY2.9
+Articulo: 60155, Rama: 1-13-3818-4212, Descripcion: CAJA.STD.DUR.COIN820
+Articulo: 60156, Rama: 1-13-3818-4212, Descripcion: CAJA.STD.DUR.COIN2.9
+Articulo: 60157, Rama: 1-13-3818-4212, Descripcion: CAJA.ST.DUR.OK.TR820
+Articulo: 60158, Rama: 1-13-3818-4212, Descripcion: CAJA.ST.DUR.OK.TR2.9
+Articulo: 60159, Rama: 1-13-3818-4212, Descripcion: CAJA.DUR.COIN.TRO820
+Articulo: 60160, Rama: 1-13-3818-4212, Descripcion: CAJA.DUR.COIN.TRO2.9
+Articulo: 60161, Rama: 1-13-3818-4212, Descripcion: CAJA.ST.DUR.EMETH820
+Articulo: 60162, Rama: 1-13-3818-4212, Descripcion: CAJA.ST.PERA.OKEY820
+Articulo: 60163, Rama: 1-13-3818-4212, Descripcion: CAJA.ST.PERA.COIN820
+Articulo: 60164, Rama: 1-13-3818-4212, Descripcion: CAJA.STD.COC.GIOC820
+Articulo: 60165, Rama: 1-13-3818-4212, Descripcion: CAJA.DUR.DIE.GIOC820
+Articulo: 60166, Rama: 1-13-3818-4212, Descripcion: CAJA.ST.DUR.AISOL820
+Articulo: 60167, Rama: 1-13-3818-4212, Descripcion: CAJA.DUR.PIACEREX820
+Articulo: 60168, Rama: 1-13-3818-4212, Descripcion: CAJA.DUR.PIAC.DIE820
+Articulo: 60169, Rama: 1-13-3818-4212, Descripcion: CAJA DUR.AISO.DIE820
+Articulo: 60170, Rama: 1-13-3818-4212, Descripcion: CAJA.DUR.INCAX820
+Articulo: 60171, Rama: 1-13-3818-4212, Descripcion: CAJA.DUR.M.ROJOX820
+Articulo: 60172, Rama: 1-13-3818-4212, Descripcion: CAJA.PERA.PIACERX820
+Articulo: 60173, Rama: 1-13-3818-4212, Descripcion: CAJA.PERA.M.ROJOX820
+Articulo: 60174, Rama: 1-13-3818-4212, Descripcion: CINTA DE EMBALAR 48X1500
+Articulo: 60175, Rama: 1-13-3818-4212, Descripcion: ETIQ.BCA.100X50X1000
+Articulo: 60176, Rama: 1-13-3818-4212, Descripcion: ETIQ.AM.100X50X1000
+Articulo: 60177, Rama: 1-13-3818-4212, Descripcion: RIBBONS N. 110MM X74
+Articulo: 60193, Rama: 1-13-3818-4212, Descripcion: INSUMOS LATA DURPER
+Articulo: 60200, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS OFERTAS A4 VERTICAL MAYORISTA X50080 GRS.
+Articulo: 60201, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS OFERTAS A4 HORIZONTAL MAYORISTA X50080 GRS.
+Articulo: 60202, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS OFERTAS A4X4 MAYORISTA X50080 GRS.
+Articulo: 60203, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS OFERTAS A3 HORIZONTAL MAYORISTA X50080 GRS.
+Articulo: 60204, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS DESTACADOS A4 HORIZONTAL MAYORISTA X50080 GRS.
+Articulo: 60205, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS DESTACADOS A4 VERTICAL MAYORISTA X50080 GRS.
+Articulo: 60206, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS DESTACADOS A4X4 MAYORISTA X50080 GRS.
+Articulo: 60207, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS DESTACADOS A3 HORIZONTAL MAYORISTA X50080 GRS.
+Articulo: 60208, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS SUPER DESCUENTO A4 HORIZONTAL MAYORISTA X50080
+Articulo: 60209, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS PROMOCION A4 NON FOOD MAYORISTA X50080 GRS.
+Articulo: 60210, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS SUPER DESCUENTO A4X4  MAYORISTA X50080 GRS.
+Articulo: 60211, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS PROMOCION A4 VERTICAL MAYORISTA X50080 GRS.
+Articulo: 60212, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS PROMOCION A4 HORIZONTAL MAYORISTA X50080 GRS.
+Articulo: 60214, Rama: 1-13-3818-4212, Descripcion: TARJETAS PERSON.X100
+Articulo: 60215, Rama: 1-13-3818-4212, Descripcion: TARJETAS CLIENTEX100
+Articulo: 60216, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS DESTACADOS  DIARCO BARRIO A4 X4 X50080 GRS.
+Articulo: 60217, Rama: 1-13-3818-4212, Descripcion: VALES DE CAJA
+Articulo: 60218, Rama: 1-13-3818-4211, Descripcion: FAJAS DE SEGURIDAD S
+Articulo: 60219, Rama: 1-13-3818-4212, Descripcion: COMODATO DE PALLETS
+Articulo: 60220, Rama: 1-13-3818-4212, Descripcion: TALONARIO DEV MERC
+Articulo: 60221, Rama: 1-13-3818-4212, Descripcion: TALONARIO NOTA DE CR
+Articulo: 60222, Rama: 1-13-3818-4211, Descripcion: FAJAS DE SEGURIDAD M
+Articulo: 60223, Rama: 1-13-3818-4212, Descripcion: AFICHE DINAM.COMERCI
+Articulo: 60224, Rama: 1-13-3818-4212, Descripcion: AFICHE INFORM.
+Articulo: 60225, Rama: 1-13-3818-4212, Descripcion: REMITOS INTERNOS
+Articulo: 60226, Rama: 1-13-3818-4212, Descripcion: AFICHE TOTEM
+Articulo: 60227, Rama: 1-13-3818-4212, Descripcion: PRECINTO CRATONX100
+Articulo: 60228, Rama: 1-13-3818-4212, Descripcion: PUNTERA PISLA 44X54
+Articulo: 60229, Rama: 1-13-3818-4212, Descripcion: PUNTERA PPASI70X100
+Articulo: 60230, Rama: 1-13-3818-4212, Descripcion: RIELES PPUNT X2.25M
+Articulo: 60231, Rama: 1-13-3818-4212, Descripcion: RIELES PPUNT X2.50M
+Articulo: 60232, Rama: 1-13-3818-4212, Descripcion: JIRAFITAS PPUNTE CH
+Articulo: 60233, Rama: 1-13-3818-4212, Descripcion: JIRAFAS CPIE 1.89CM
+Articulo: 60234, Rama: 1-13-3818-4212, Descripcion: JIRAFAS CPIE 2.34CM
+Articulo: 60235, Rama: 1-13-3818-4212, Descripcion: RIELES PPUNTERA X1M
+Articulo: 60236, Rama: 1-13-3818-4212, Descripcion: PAPEL TABACO I-TECH
+Articulo: 60237, Rama: 1-13-3818-4212, Descripcion: PAPEL CEREJEIRA MATT
+Articulo: 60238, Rama: 1-13-3818-4212, Descripcion: LATA VACIA X800G A22
+Articulo: 60239, Rama: 1-13-3818-4212, Descripcion: TAPA LATA X800G
+Articulo: 60245, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS OFERTAS NON FOOD VERTICAL MAYORISTA X50080 GRS
+Articulo: 60246, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS OFERTAS NON FOOD A6 MAYORISTA X50080 GRS.
+Articulo: 60247, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS PROMOCION A4X4 MAYORISTA X50080 GRS.
+Articulo: 60248, Rama: 1-13-3818-4212, Descripcion: BOLS.RETIRO DB X250
+Articulo: 60251, Rama: 1-13-3818-4211, Descripcion: FAJAS DE SEGURIDAD L
+Articulo: 60252, Rama: 1-13-3818-4211, Descripcion: FAJAS DE SEGURID. XL
+Articulo: 60253, Rama: 1-13-3818-4211, Descripcion: FAJAS DE SEGURID.XXL
+Articulo: 60254, Rama: 1-13-3818-4211, Descripcion: FAJAS DE SEGUR. XXXL
+Articulo: 60255, Rama: 1-13-3818-4211, Descripcion: GUANTES DE LATEX DESCARTABLE X 100 UNIDADES
+Articulo: 60256, Rama: 1-13-3818-4212, Descripcion: HEL.MURAL TAME250 4P
+Articulo: 60257, Rama: 1-13-3818-4212, Descripcion: MOD.RACK 2.30 X2M DB
+Articulo: 60258, Rama: 1-13-3818-4212, Descripcion: MOD.GOND. CPARED DB
+Articulo: 60259, Rama: 1-13-3818-4212, Descripcion: MOD.GOND.CENTRAL DB
+Articulo: 60260, Rama: 1-13-3818-4212, Descripcion: CHECK OUT DB 2M
+Articulo: 60261, Rama: 1-13-3818-4212, Descripcion: GRUPO ELEC. DB
+Articulo: 60263, Rama: 1-13-3818-4212, Descripcion: PALLET 1.00X0.60 DB
+Articulo: 60265, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS PROMOCION DIARCO BARRIO A4 X4 X50080 GRS.
+Articulo: 60266, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS PROMOCION DIARCO BARRIO A4 HORIZONTAL X50080 G
+Articulo: 60267, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS SUPER DESCUENTO DIARCO BARRIO A4 HORIZONTAL X50
+Articulo: 60269, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS OFERTA DIARCO BARRIO A4 X4 X50080 GRS.
+Articulo: 60271, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS SUPER DESCUENTO DIARCO BARRIO A4X4 X50080 GRS.
+Articulo: 60273, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS OFERTA DIARCO BARRIO A4 HORIZONTAL X50080 GRS.
+Articulo: 60274, Rama: 1-13-3818-4212, Descripcion: PORTA PRECIOS OFERTA DIARCO BARRIO SINOLX4 X500880 GRS.
+Articulo: 60275, Rama: 1-13-3818-4212, Descripcion: ROLLO PAPEL OBRA X57
+Articulo: 60276, Rama: 1-13-3818-4211, Descripcion: PANTALON NAUTICO 9
+Articulo: 60277, Rama: 1-13-3818-4211, Descripcion: PANTALON NAUTICO 10
+Articulo: 60278, Rama: 1-13-3818-4212, Descripcion: ETIQ.10X10 GC4 20T
+Articulo: 60287, Rama: 1-13-3818-4212, Descripcion: BOLSA ARRANQUE30X40
+Articulo: 60288, Rama: 1-13-3818-4212, Descripcion: CUNA PARA REPOSICION
+Articulo: 60289, Rama: 1-13-3818-4212, Descripcion: TERMOCONTRAIBLE  X 480MM
+Articulo: 60290, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS SUPER DESCUENTO A4 VERTICAL  MAYORISTA X50080
+Articulo: 60291, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS SUPER DESCUENTO A3 HORIZONTAL MAYORISTA X50080
+Articulo: 60292, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS PROMOCION A3 HORIZONTAL MAYORISTA X50080 GRS.
+Articulo: 60293, Rama: 1-13-3818-4212, Descripcion: FILM STRECH NEGRO 4.50 KILOS
+Articulo: 60294, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS LIQUIDACION A4 VERTICAL MAYORISTA X50080 GRS.
+Articulo: 60295, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS LIQUIDACION A3 HORIZONTAL MAYORISTA X50080 GRS
+Articulo: 60296, Rama: 1-13-3818-4212, Descripcion: AFICHE  LIQUIDACION
+Articulo: 60297, Rama: 1-13-3818-4212, Descripcion: AFICHE OFERTA
+Articulo: 60298, Rama: 1-13-3818-4212, Descripcion: AFICHE PROMO
+Articulo: 60299, Rama: 1-13-3818-4212, Descripcion: AFICHE SUPER DESCUENTO
+Articulo: 60300, Rama: 1-13-3818-4212, Descripcion: PAPEL RESMA ECOLOGICA A4 500X80 GRS. PARA CONSUMO INTERNO
+Articulo: 60302, Rama: 1-13-3818-4212, Descripcion: REVISTERO OFERTAS Y PROMOCIONES
+Articulo: 60303, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS CUOTAS A4 HORIZONTAL NON FOOD X50080 GRS.
+Articulo: 60304, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS CUOTAS A4 VERTICAL  NON FOOD X50080 GRS.
+Articulo: 60321, Rama: 1-13-3818-4212, Descripcion: ROLLOS RIBBON 102 MM X 450 MTS OUT
+Articulo: 60322, Rama: 1-13-3818-4212, Descripcion: BOLSA KRAFT MARRON 32X18X37 CM
+Articulo: 62000, Rama: 1-13-3818-4211, Descripcion: BUZO BLANCO S
+Articulo: 62001, Rama: 1-13-3818-4211, Descripcion: BUZO BLANCO M
+Articulo: 62002, Rama: 1-13-3818-4211, Descripcion: BUZO BLANCO L
+Articulo: 62003, Rama: 1-13-3818-4211, Descripcion: BUZO BLANCO XL
+Articulo: 62004, Rama: 1-13-3818-4211, Descripcion: BUZO BLANCO XXL
+Articulo: 62005, Rama: 1-13-3818-4211, Descripcion: BUZO BLANCO XXXL
+Articulo: 62006, Rama: 1-13-3818-4211, Descripcion: BUZO BLANCO ESPECIAL
+Articulo: 62007, Rama: 1-13-3818-4211, Descripcion: BUZO ROJO S
+Articulo: 62008, Rama: 1-13-3818-4211, Descripcion: BUZO ROJO M
+Articulo: 62009, Rama: 1-13-3818-4211, Descripcion: BUZO ROJO L
+Articulo: 62010, Rama: 1-13-3818-4211, Descripcion: BUZO ROJO XL
+Articulo: 62011, Rama: 1-13-3818-4211, Descripcion: BUZO ROJO XXL
+Articulo: 62012, Rama: 1-13-3818-4211, Descripcion: BUZO ROJO XXXL
+Articulo: 62013, Rama: 1-13-3818-4211, Descripcion: BUZO ROJO ESPECIAL
+Articulo: 62014, Rama: 1-13-3818-4211, Descripcion: BUZO NEGRO LOG. S
+Articulo: 62015, Rama: 1-13-3818-4211, Descripcion: BUZO NEGRO LOG. M
+Articulo: 62016, Rama: 1-13-3818-4211, Descripcion: BUZO NEGRO LOG. L
+Articulo: 62017, Rama: 1-13-3818-4211, Descripcion: BUZO NEGRO LOG. XL
+Articulo: 62018, Rama: 1-13-3818-4211, Descripcion: BUZO NEGRO LOG. XXL
+Articulo: 62019, Rama: 1-13-3818-4211, Descripcion: BUZO NEGRO LOG. XXXL
+Articulo: 62020, Rama: 1-13-3818-4211, Descripcion: REM.BLA.TESP.
+Articulo: 62021, Rama: 1-13-3818-4211, Descripcion: REM.BLA.TXXXL
+Articulo: 62022, Rama: 1-13-3818-4211, Descripcion: REM.BLA.TXXL
+Articulo: 62023, Rama: 1-13-3818-4211, Descripcion: REM.BLA.TXL
+Articulo: 62024, Rama: 1-13-3818-4211, Descripcion: REM.BLA.TL
+Articulo: 62025, Rama: 1-13-3818-4211, Descripcion: REM.BLA.TM
+Articulo: 62026, Rama: 1-13-3818-4211, Descripcion: REM.BLA.TS
+Articulo: 62027, Rama: 1-13-3818-4211, Descripcion: REM.AMA.TESP
+Articulo: 62028, Rama: 1-13-3818-4211, Descripcion: REM.AMA.TXXXL
+Articulo: 62029, Rama: 1-13-3818-4211, Descripcion: REM.AMA.TXXL
+Articulo: 62030, Rama: 1-13-3818-4211, Descripcion: REM.AMA.TXL
+Articulo: 62031, Rama: 1-13-3818-4211, Descripcion: REM.AMA.TL
+Articulo: 62032, Rama: 1-13-3818-4211, Descripcion: REM.AMA.TM
+Articulo: 62033, Rama: 1-13-3818-4211, Descripcion: REM.AMA.TS
+Articulo: 62034, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T48
+Articulo: 62035, Rama: 1-13-3818-4211, Descripcion: BUZO NEGRO LOG. ESPE
+Articulo: 62036, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCO36
+Articulo: 62037, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCO38
+Articulo: 62038, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCO40
+Articulo: 62039, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCO42
+Articulo: 62040, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCO44
+Articulo: 62041, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCO46
+Articulo: 62042, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCO48
+Articulo: 62043, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCO50
+Articulo: 62044, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCO52
+Articulo: 62045, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCO54
+Articulo: 62046, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCO56
+Articulo: 62047, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCO58
+Articulo: 62048, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCO60
+Articulo: 62049, Rama: 1-13-3818-4211, Descripcion: PANTAL.BLANCOESP
+Articulo: 62050, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGRO36
+Articulo: 62051, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGRO38
+Articulo: 62052, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGRO40
+Articulo: 62053, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGRO42
+Articulo: 62054, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGRO44
+Articulo: 62055, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGRO46
+Articulo: 62056, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGRO48
+Articulo: 62057, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGRO50
+Articulo: 62058, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGRO52
+Articulo: 62059, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGRO54
+Articulo: 62060, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGRO56
+Articulo: 62061, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGRO58
+Articulo: 62062, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGRO60
+Articulo: 62063, Rama: 1-13-3818-4211, Descripcion: PANTAL.NEGROESP
+Articulo: 62064, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZUL36
+Articulo: 62065, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZUL38
+Articulo: 62066, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZUL40
+Articulo: 62067, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZUL42
+Articulo: 62068, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZUL44
+Articulo: 62069, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZUL46
+Articulo: 62070, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZUL48
+Articulo: 62071, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZUL50
+Articulo: 62072, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZUL52
+Articulo: 62073, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZUL54
+Articulo: 62074, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZUL56
+Articulo: 62075, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZUL58
+Articulo: 62076, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZUL60
+Articulo: 62077, Rama: 1-13-3818-4211, Descripcion: PANTAL.AZULESP.
+Articulo: 62078, Rama: 1-13-3818-4211, Descripcion: CHALECO S
+Articulo: 62079, Rama: 1-13-3818-4211, Descripcion: BOTAS T38
+Articulo: 62080, Rama: 1-13-3818-4211, Descripcion: CHALECO L
+Articulo: 62081, Rama: 1-13-3818-4211, Descripcion: CHALECO XL
+Articulo: 62082, Rama: 1-13-3818-4211, Descripcion: CHALECO XXL
+Articulo: 62083, Rama: 1-13-3818-4211, Descripcion: CHALECO XXXL
+Articulo: 62084, Rama: 1-13-3818-4211, Descripcion: CHALECO ESP.
+Articulo: 62085, Rama: 1-13-3818-4211, Descripcion: MAME.TERM.S
+Articulo: 62086, Rama: 1-13-3818-4211, Descripcion: MAME.TERM.M
+Articulo: 62087, Rama: 1-13-3818-4211, Descripcion: MAME.TERM.L
+Articulo: 62088, Rama: 1-13-3818-4211, Descripcion: MAME.TERM.XL
+Articulo: 62089, Rama: 1-13-3818-4211, Descripcion: MAME.TERM.XXL
+Articulo: 62090, Rama: 1-13-3818-4211, Descripcion: MAME.TERM.XXXL
+Articulo: 62091, Rama: 1-13-3818-4211, Descripcion: MAME.TERM.ESP.
+Articulo: 62092, Rama: 1-13-3818-4211, Descripcion: CALZA.TERM.S
+Articulo: 62093, Rama: 1-13-3818-4211, Descripcion: CALZA.TERM.M
+Articulo: 62094, Rama: 1-13-3818-4211, Descripcion: CALZA.TERM.L
+Articulo: 62095, Rama: 1-13-3818-4211, Descripcion: CALZA.TERM.XL
+Articulo: 62096, Rama: 1-13-3818-4211, Descripcion: CALZA.TERM.XXL
+Articulo: 62097, Rama: 1-13-3818-4211, Descripcion: CALZA.TERM.XXL
+Articulo: 62098, Rama: 1-13-3818-4211, Descripcion: CALZA.TERM.ESP
+Articulo: 62099, Rama: 1-13-3818-4211, Descripcion: PANT.TERM.S
+Articulo: 62100, Rama: 1-13-3818-4211, Descripcion: PANT.TERM.M
+Articulo: 62101, Rama: 1-13-3818-4211, Descripcion: PANT.TERM.L
+Articulo: 62102, Rama: 1-13-3818-4211, Descripcion: PANT.TERM.XL
+Articulo: 62103, Rama: 1-13-3818-4211, Descripcion: PANT.TERM.XXL
+Articulo: 62104, Rama: 1-13-3818-4211, Descripcion: PANT.TERM.XXXL
+Articulo: 62105, Rama: 1-13-3818-4211, Descripcion: PANT.TERM.ESP.
+Articulo: 62106, Rama: 1-13-3818-4211, Descripcion: REMERA ROJA DB S
+Articulo: 62107, Rama: 1-13-3818-4211, Descripcion: REMERA ROJA DB M
+Articulo: 62108, Rama: 1-13-3818-4211, Descripcion: REMERA ROJA DB L
+Articulo: 62109, Rama: 1-13-3818-4211, Descripcion: REMERA ROJA DB XL
+Articulo: 62110, Rama: 1-13-3818-4211, Descripcion: REMERA ROJA DB XXL
+Articulo: 62111, Rama: 1-13-3818-4211, Descripcion: REMERA ROJA DB XXXL
+Articulo: 62112, Rama: 1-13-3818-4211, Descripcion: REMERA ROJA DB ESPECIAL
+Articulo: 62113, Rama: 1-13-3818-4211, Descripcion: CAMPERA ROJA S
+Articulo: 62114, Rama: 1-13-3818-4211, Descripcion: CAMPERA ROJA M
+Articulo: 62115, Rama: 1-13-3818-4211, Descripcion: CAMPERA ROJA L
+Articulo: 62116, Rama: 1-13-3818-4211, Descripcion: CAMPERA ROJA XL
+Articulo: 62117, Rama: 1-13-3818-4211, Descripcion: CAMPERA ROJA XXL
+Articulo: 62118, Rama: 1-13-3818-4211, Descripcion: CAMPERA ROJA XXXL
+Articulo: 62119, Rama: 1-13-3818-4211, Descripcion: CAMPERA ROJA ESPECIA
+Articulo: 62120, Rama: 1-13-3818-4211, Descripcion: CAMPERA BLANCA S
+Articulo: 62121, Rama: 1-13-3818-4211, Descripcion: CAMPERA BLANCA M
+Articulo: 62122, Rama: 1-13-3818-4211, Descripcion: CAMPERA BLANCA L
+Articulo: 62123, Rama: 1-13-3818-4211, Descripcion: CAMPERA BLANCA XL
+Articulo: 62124, Rama: 1-13-3818-4211, Descripcion: CAMPERA BLANCA XXL
+Articulo: 62125, Rama: 1-13-3818-4211, Descripcion: CAMPERA BLANCA XXXL
+Articulo: 62126, Rama: 1-13-3818-4211, Descripcion: CAMPERA BLANCA ESPEC
+Articulo: 62127, Rama: 1-13-3818-4211, Descripcion: CAMP.AZUL.TS
+Articulo: 62128, Rama: 1-13-3818-4211, Descripcion: CAMP.AZUL.TM
+Articulo: 62129, Rama: 1-13-3818-4211, Descripcion: CAMP.AZUL.TL
+Articulo: 62130, Rama: 1-13-3818-4211, Descripcion: CAMP.AZUL.TXL
+Articulo: 62131, Rama: 1-13-3818-4211, Descripcion: CAMP.AZUL.TXXL
+Articulo: 62132, Rama: 1-13-3818-4211, Descripcion: CAMP.AZUL.TXXXL
+Articulo: 62133, Rama: 1-13-3818-4211, Descripcion: CAMP.AZUL.TESP.
+Articulo: 62134, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T35
+Articulo: 62135, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T36
+Articulo: 62136, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T37
+Articulo: 62137, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T38
+Articulo: 62138, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T39
+Articulo: 62139, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T40
+Articulo: 62140, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T41
+Articulo: 62141, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T42
+Articulo: 62142, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T43
+Articulo: 62143, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T44
+Articulo: 62144, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T45
+Articulo: 62145, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T46
+Articulo: 62146, Rama: 1-13-3818-4211, Descripcion: CAMISA AZUL T38
+Articulo: 62147, Rama: 1-13-3818-4211, Descripcion: CAMISA AZUL T39
+Articulo: 62154, Rama: 1-13-3818-4211, Descripcion: CAMISA AZUL T46
+Articulo: 62155, Rama: 1-13-3818-4211, Descripcion: CAMISA AZUL T60
+Articulo: 62156, Rama: 1-13-3818-4211, Descripcion: CAMISA AZUL T48
+Articulo: 62157, Rama: 1-13-3818-4211, Descripcion: CAMISA TERMICA TS
+Articulo: 62158, Rama: 1-13-3818-4211, Descripcion: CAMISA TERMICA TM
+Articulo: 62159, Rama: 1-13-3818-4211, Descripcion: CAMISA TERMICA TL
+Articulo: 62160, Rama: 1-13-3818-4211, Descripcion: CAMISA TERMICA TXL
+Articulo: 62161, Rama: 1-13-3818-4211, Descripcion: CAMISA TERMICA TXXL
+Articulo: 62162, Rama: 1-13-3818-4212, Descripcion: MED. TERMICAEPP
+Articulo: 62165, Rama: 1-13-3818-4211, Descripcion: REM. GRIS. TM
+Articulo: 62166, Rama: 1-13-3818-4211, Descripcion: REM. GRIS. TL
+Articulo: 62167, Rama: 1-13-3818-4211, Descripcion: REM. GRIS. TXL
+Articulo: 62168, Rama: 1-13-3818-4211, Descripcion: REM. GRIS. TXXL
+Articulo: 62169, Rama: 1-13-3818-4211, Descripcion: REM. GRIS. TXXXL
+Articulo: 62170, Rama: 1-13-3818-4211, Descripcion: REM. GRIS. TESP.
+Articulo: 62171, Rama: 1-13-3818-4211, Descripcion: CAMISA AZUL T50
+Articulo: 62172, Rama: 1-13-3818-4211, Descripcion: CAMISA AZUL T52
+Articulo: 62173, Rama: 1-13-3818-4211, Descripcion: CAMISA AZUL T54
+Articulo: 62174, Rama: 1-13-3818-4211, Descripcion: CHAQUETA COCINA T.L
+Articulo: 62175, Rama: 1-13-3818-4211, Descripcion: CHAQUETA COCINA T.XL
+Articulo: 62176, Rama: 1-13-3818-4211, Descripcion: PANTALON NEGRO T34
+Articulo: 62177, Rama: 1-13-3818-4212, Descripcion: DELANTAL FRESCOS
+Articulo: 62178, Rama: 1-13-3818-4211, Descripcion: PROTECTOR OCULAR EPP
+Articulo: 62179, Rama: 1-13-3818-4211, Descripcion: BOTAS T39
+Articulo: 62180, Rama: 1-13-3818-4211, Descripcion: BOTAS T40
+Articulo: 62181, Rama: 1-13-3818-4211, Descripcion: BOTAS T41
+Articulo: 62182, Rama: 1-13-3818-4211, Descripcion: BOTAS T42
+Articulo: 62183, Rama: 1-13-3818-4211, Descripcion: BOTAS T43
+Articulo: 62184, Rama: 1-13-3818-4211, Descripcion: BOTAS T44
+Articulo: 62185, Rama: 1-13-3818-4211, Descripcion: BOTAS T45
+Articulo: 62186, Rama: 1-13-3818-4211, Descripcion: TRAJE DE LLUVIA TALLE M
+Articulo: 62187, Rama: 1-13-3818-4211, Descripcion: TRAJE DE LLUVIA TALLE L
+Articulo: 62188, Rama: 1-13-3818-4211, Descripcion: TRAJE DE LLUVIA TALLE XL
+Articulo: 62189, Rama: 1-13-3818-4211, Descripcion: TRAJE DE LLUVIA XXXL
+Articulo: 62190, Rama: 1-13-3818-4211, Descripcion: TRAJE DE LLUVIA TALLE XXL
+Articulo: 62191, Rama: 1-13-3818-4211, Descripcion: PANTALON NAUTICO 1
+Articulo: 62192, Rama: 1-13-3818-4211, Descripcion: PANTALON NAUTICO 2
+Articulo: 62193, Rama: 1-13-3818-4211, Descripcion: PANTALON NAUTICO 3
+Articulo: 62194, Rama: 1-13-3818-4211, Descripcion: PANTALON NAUTICO 4
+Articulo: 62197, Rama: 1-13-3818-4211, Descripcion: PANTALON NAUTICO 5
+Articulo: 62198, Rama: 1-13-3818-4211, Descripcion: PANTALON NAUTICO 6
+Articulo: 62199, Rama: 1-13-3818-4211, Descripcion: PANTALON NAUTICO 7
+Articulo: 62200, Rama: 1-13-3818-4211, Descripcion: PANTALON NAUTICO 8
+Articulo: 62201, Rama: 1-13-3818-4211, Descripcion: BOTAS T46
+Articulo: 62202, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T34
+Articulo: 62212, Rama: 1-13-3818-4211, Descripcion: ZAP.SEG.T47
+Articulo: 62213, Rama: 1-13-3818-4211, Descripcion: CAM.DAMA BCA TA.M MC
+Articulo: 62214, Rama: 1-13-3818-4211, Descripcion: CAM.DAMA BCA TA.L ML
+Articulo: 62215, Rama: 1-13-3818-4211, Descripcion: CAM.DAMA ROJ TA.M MC
+Articulo: 62216, Rama: 1-13-3818-4211, Descripcion: CAM.DAMA ROJ TA.M ML
+Articulo: 62217, Rama: 1-13-3818-4211, Descripcion: PANTAL.DAMA GRIS44
+Articulo: 62218, Rama: 1-13-3818-4211, Descripcion: CAM.DAMA BCA TA.M ML
+Articulo: 62219, Rama: 1-13-3818-4211, Descripcion: CAMISA AZUL T56
+Articulo: 62220, Rama: 1-13-3818-4211, Descripcion: CHALECO REFRACTARIO
+Articulo: 62539, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB MANDOS S
+Articulo: 62241, Rama: 1-13-3818-4211, Descripcion: MAMELUCO GRAFA MANTENIMIENTO TALLE XL
+Articulo: 62242, Rama: 1-13-3818-4211, Descripcion: MAMELUCO GRAFA MANTENIMIENTO TALLE XXL
+Articulo: 62243, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB TALLE S
+Articulo: 62244, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB TALLE M
+Articulo: 62245, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB TALLE L
+Articulo: 62246, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB TALLE XL
+Articulo: 62247, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB TALLE XXL
+Articulo: 62248, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB TALLE XXXL
+Articulo: 62249, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB TALLE ESPECIAL
+Articulo: 62250, Rama: 1-13-3818-4212, Descripcion: DELANTAL NEGRO DB
+Articulo: 62349, Rama: 1-13-3818-4211, Descripcion: CHOMBA DIARCO  AMARILLA TALLE ESPECIAL
+Articulo: 62350, Rama: 1-13-3818-4211, Descripcion: CHOMBA DIARCO  AMARILLA TALLE XXXL
+Articulo: 62351, Rama: 1-13-3818-4211, Descripcion: CHOMBA DIARCO  AMARILLA TALLE XXL
+Articulo: 62352, Rama: 1-13-3818-4211, Descripcion: CHOMBA DIARCO  AMARILLA TALLE XL
+Articulo: 62353, Rama: 1-13-3818-4211, Descripcion: CHOMBA DIARCO  AMARILLA TALLE L
+Articulo: 62354, Rama: 1-13-3818-4211, Descripcion: CHOMBA DIARCO  AMARILLA TALLE M
+Articulo: 62355, Rama: 1-13-3818-4211, Descripcion: CHOMBA DIARCO  AMARILLA TALLE S
+Articulo: 62358, Rama: 1-13-3818-4211, Descripcion: GUANTE PHORNO ALTA TEMP
+Articulo: 62359, Rama: 1-13-3818-4211, Descripcion: MEDIAS TERMICAS
+Articulo: 62540, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB MANDOS M
+Articulo: 62541, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB MANDOS L
+Articulo: 62542, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB MANDOS XL
+Articulo: 62543, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB MANDOS 2XL
+Articulo: 62544, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB MANDOS 3XL
+Articulo: 62545, Rama: 1-13-3818-4211, Descripcion: CHOMBA GRIS DB MANDOS ESPECIAL
+Articulo: 70002, Rama: 1-13-3818-4212, Descripcion: TERMOCONTRAIBLE  35
+Articulo: 70945, Rama: 1-13-3818-4212, Descripcion: BANDEJA MULTIESPACIO 23X18 CM
+Articulo: 72457, Rama: 1-13-3818-4212, Descripcion: SILLA CAJERA CARO
+Articulo: 72458, Rama: 1-13-3818-4212, Descripcion: SILLA OP. CBRAZOS
+Articulo: 75106, Rama: -5130-5131-5135, Descripcion: POMELO
+Articulo: 74715, Rama: 1-13-3818-4212, Descripcion: BANDITA ELAST CHX500
+Articulo: 74716, Rama: 1-13-3818-4212, Descripcion: BANDITA ELAST LFX500
+Articulo: 74717, Rama: 1-13-3818-4212, Descripcion: GUILLOTINA
+Articulo: 74718, Rama: 1-13-3818-4212, Descripcion: TINTA HP COLOR
+Articulo: 74719, Rama: 1-13-3818-4212, Descripcion: TINTA HP NEGRA
+Articulo: 74720, Rama: 1-13-3818-4212, Descripcion: TINTA EPSON COLOR
+Articulo: 74721, Rama: 1-13-3818-4212, Descripcion: TINTA EPSON NEGRO
+Articulo: 74766, Rama: 1-13-3818-4212, Descripcion: CANASTO CONTENEDOR PARA DESCARTABLES 1.15X0.80
+Articulo: 74773, Rama: 1-13-3818-4212, Descripcion: ARNES ANTICAIDA
+Articulo: 74774, Rama: 1-13-3818-4212, Descripcion: CANASTO EXHIBIDOR 60X50X77
+Articulo: 74775, Rama: 1-13-3818-4212, Descripcion: MESA DE EXHIBICION 50X40X110
+Articulo: 74776, Rama: 1-13-3818-4212, Descripcion: EXHIBIDOR PARA PLATOS L450
+Articulo: 74783, Rama: 1-13-3818-4212, Descripcion: ARNES SIMPLE PARA CASCO
+Articulo: 74784, Rama: 1-13-3818-4212, Descripcion: CANASTO CONTENEDOR DESCARTABLES 1.15X0.60
+Articulo: 75012, Rama: -5130-5131-5135, Descripcion: BERENJENAS COMERCIAL
+Articulo: 75036, Rama: -5130-5132-5136, Descripcion: ZAPALLO ANCO EN RODAJAS
+Articulo: 75039, Rama: -5130-5131-5135, Descripcion: CIRUELA
+Articulo: 75041, Rama: -5130-5131-5135, Descripcion: DURAZNO
+Articulo: 75046, Rama: -5130-5131-5135, Descripcion: MANZANA ROJA
+Articulo: 75047, Rama: -5130-5131-5135, Descripcion: MANZANA ROJA ELEGIDA
+Articulo: 75049, Rama: -5130-5131-5135, Descripcion: MANZANA VERDE
+Articulo: 75052, Rama: -5130-5131-5135, Descripcion: PERA
+Articulo: 75060, Rama: -5130-5132-5136, Descripcion: CEBOLLA DE VERDEO
+Articulo: 75065, Rama: -5130-5132-5136, Descripcion: LECHUGA CRIOLLA
+Articulo: 75066, Rama: -5130-5132-5136, Descripcion: LECHUGA CAPUCHINA
+Articulo: 75070, Rama: -5130-5132-5136, Descripcion: PIMIENTO ROJO
+Articulo: 75071, Rama: -5130-5132-5136, Descripcion: PIMIENTO VERDE
+Articulo: 75072, Rama: -5130-5132-5136, Descripcion: PUERRO
+Articulo: 75077, Rama: -5130-5132-5136, Descripcion: ZAPALLITO REDONDO
+Articulo: 75098, Rama: -5130-5131-5135, Descripcion: MANDARINA
+Articulo: 75100, Rama: -5130-5131-5135, Descripcion: NARANJA JUGO
+Articulo: 75113, Rama: -5130-5132-5136, Descripcion: VERDURITA PARA SOPA
+Articulo: 75118, Rama: -5130-5132-5136, Descripcion: AJO
+Articulo: 75120, Rama: -5130-5132-5136, Descripcion: CEBOLLA
+Articulo: 75123, Rama: -5130-5132-5136, Descripcion: ZAPALLO ANCO
+Articulo: 75124, Rama: -5130-5132-5136, Descripcion: ZAPALLO CABUTIA
+Articulo: 75128, Rama: -5130-5131-5135, Descripcion: BANANA COMERCIAL.
+Articulo: 75129, Rama: -5130-5131-5135, Descripcion: BANANA
+Articulo: 75131, Rama: -5130-5131-5135, Descripcion: FRUTILLA CUBETA
+Articulo: 75135, Rama: -5130-5131-5135, Descripcion: BERENJENA NEGRA
+Articulo: 75139, Rama: -5130-5132-5136, Descripcion: CHOCLO
+Articulo: 75141, Rama: -5130-5131-5135, Descripcion: TOMATE CHERRY
+Articulo: 75144, Rama: -5130-5131-5135, Descripcion: TOMATE REDONDO
+Articulo: 75145, Rama: -5130-5131-5135, Descripcion: UVA BLANCA
+Articulo: 75149, Rama: -5130-5132-5136, Descripcion: ZANAHORIA
+Articulo: 75152, Rama: -5130-5132-5136, Descripcion: BATATA
+Articulo: 75154, Rama: -5130-5131-5135, Descripcion: LIMON
+Articulo: 75156, Rama: -5130-5131-5135, Descripcion: PALTA
+Articulo: 75162, Rama: -5130-5131-5135, Descripcion: MELON BLANCO
+Articulo: 75165, Rama: -5130-5131-5135, Descripcion: ARANDANO CUBETA
+Articulo: 75167, Rama: -5130-5132-5136, Descripcion: PAPA
+Articulo: 75170, Rama: -5130-5131-5135, Descripcion: PINA
+Articulo: 75171, Rama: -5130-5131-5135, Descripcion: SANDIA MINI
+Articulo: 75172, Rama: -5130-5132-5136, Descripcion: ZAPALLITO LARGO
+Articulo: 75177, Rama: -5130-5132-5136, Descripcion: LECHUGA CRESPA
+Articulo: 75178, Rama: -5130-5132-5136, Descripcion: PEPINO
+Articulo: 75180, Rama: -5130-5132-5136, Descripcion: TOMATE PERITA
+Articulo: 75181, Rama: -5130-5132-5136, Descripcion: REPOLLO BLANCO
+Articulo: 75182, Rama: -5130-5132-5136, Descripcion: PAPA BOLSA X 1KG
+Articulo: 75183, Rama: -5130-5132-5136, Descripcion: CEBOLLA BOLSA X 1KG
+Articulo: 77243, Rama: 1-13-3818-4212, Descripcion: CESTO SAN REMO RESIDUOS TAPA VAIVEN 140 LT
+Articulo: 80181, Rama: 1-13-3818-4212, Descripcion: PAPEL RESMA A4 AMARILLA RESMA 500X75 GRS. PARA CONSUMO INTER
+Articulo: 80182, Rama: 1-13-3818-4212, Descripcion: PAPEL RESMA OFICIO 500X75 GRS. PARA CONSUMO INTERNO
+Articulo: 80344, Rama: 1-13-3818-4212, Descripcion: HOJA PLEGAJO PERSON
+Articulo: 80419, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS PRONTO CONSUMO A3 HORIZONTALX50080 GRS.
+Articulo: 80420, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS PRONTO CONSUMO A4 HORIZONTALX50080 GRS.
+Articulo: 80421, Rama: 1-13-3818-4212, Descripcion: PORTAPRECIOS PRONTO CONSUMO A4X4 X50080 GRS.
+Articulo: 81356, Rama: 1-13-3818-4212, Descripcion: BASURERO CON TAPA VAIVEN DE 10 LITROS
+Articulo: 81375, Rama: 1-13-3818-4212, Descripcion: TACHO DE BASURA COLOR VERDE RESIDUOS RECICLABLES
+Articulo: 81376, Rama: 1-13-3818-4212, Descripcion: TACHO DE BASURA COLOR NEGRO RESIDUOS HUMEDOS
+Articulo: 85085, Rama: 1-13-3818-4212, Descripcion: CD-R KODAK BULK  50U
+Articulo: 86887, Rama: 1-13-3818-4212, Descripcion: CINTA EPSON ERC-38
+Articulo: 87220, Rama: 1-13-3818-4212, Descripcion: PAPEL RESMA A4 BOREAL 500X80 GRS. PARA CONSUMO INTERNO
+Articulo: 88000, Rama: 1-3623-3624-3625-3634, Descripcion: TECLADO STANDARD PS2
+Articulo: 88001, Rama: 1-3623-3624-3625-3634, Descripcion: TECLADO STANDARD USB
+Articulo: 88002, Rama: 1-3623-3624-3626-3637, Descripcion: MOUSE ESTANDAR
+Articulo: 88003, Rama: 1-3623-3624-3626-3637, Descripcion: MOUSE ESTAND. OPTICO
+Articulo: 88004, Rama: 1-3623-3624-3630-3657, Descripcion: CONECT.SWITCH 16B
+Articulo: 88005, Rama: 1-3623-3624-3628-3642, Descripcion: MONITOR CRT 15
+Articulo: 88006, Rama: 1-3623-3624-3628-3642, Descripcion: MONITOR CRT 17
+Articulo: 88007, Rama: 1-3623-3624-3628-3643, Descripcion: MONITOR LCD 17
+Articulo: 88008, Rama: 1-3623-3624-3628-3643, Descripcion: MONITOR LCD 19
+Articulo: 88009, Rama: 1-3623-3624-3632-3668, Descripcion: IMPRESORA MULTIFUNCION LASER
+Articulo: 88010, Rama: 1-3623-3624-3629-3649, Descripcion: CENTRAL TELEF PBX
+Articulo: 88011, Rama: 1-3623-3624-3629-3650, Descripcion: TELEF. INALAMBRICO
+Articulo: 88012, Rama: 1-3623-3624-3629-3650, Descripcion: FAX
+Articulo: 88013, Rama: 1-3623-3624-3629-3651, Descripcion: TELEFONO CELULAR
+Articulo: 88014, Rama: 1-3623-3624-3629-3651, Descripcion: TELULAR GSM
+Articulo: 88015, Rama: 1-3623-3624-3630-3657, Descripcion: CONECT.SWITCH 24B
+Articulo: 88016, Rama: 1-3623-3624-3630-3657, Descripcion: CONECT.SWITCH 5B
+Articulo: 88017, Rama: 1-3623-3624-3630-3657, Descripcion: ROUTER WI-FI PROPIO
+Articulo: 88018, Rama: 1-3623-3624-3630-3658, Descripcion: CONEC.ROUTER PROVEED
+Articulo: 88019, Rama: 1-3623-3624-3631-3663, Descripcion: CPU SERVER
+Articulo: 88020, Rama: 1-3623-3624-3631-3663, Descripcion: CPU PC
+Articulo: 88021, Rama: 1-3623-3624-3631-3664, Descripcion: NOTEBOOK
+Articulo: 88022, Rama: 1-3623-3624-3632-3668, Descripcion: IMPRESORA LASER
+Articulo: 88023, Rama: 1-3623-3624-3632-3668, Descripcion: IMPRESORA CHORRO DE TINTA
+Articulo: 88024, Rama: 1-3623-3624-3632-3668, Descripcion: IMPRESORA TERMICA
+Articulo: 88025, Rama: 1-3623-3624-3632-3669, Descripcion: IMPRESORA MULTIFUNCION CHORRO DE TINTA
+Articulo: 88026, Rama: 1-3623-3624-3633-3674, Descripcion: SCANNER LASER
+Articulo: 88027, Rama: 1-3623-3624-3633-3675, Descripcion: SCANNER CAMA PLANA
+Articulo: 88028, Rama: 1-3623-3624-3629-3650, Descripcion: TELEFONO ANALOGICO
+Articulo: 88029, Rama: 1-3623-3624-3629-3650, Descripcion: TELEFONO DIGITAL
+Articulo: 88030, Rama: 1-3623-3624-3678-3679, Descripcion: UPS APC
+Articulo: 88031, Rama: 1-3623-3624-3678-3679, Descripcion: UPS GENERICA
+Articulo: 88032, Rama: 1-3623-3624-3632-3702, Descripcion: IMPRESORA FISCAL
+Articulo: 88033, Rama: 1-13-3818-4212, Descripcion: CAJON DE DINERO
+Articulo: 88034, Rama: 1-3623-3624-3633-3674, Descripcion: SCANNER OMNIDIRECCIO
+Articulo: 88035, Rama: 1-3623-3624-3629-3650, Descripcion: CELULAR DE FLOTA
+Articulo: 88036, Rama: 1-3623-3624-3632-3702, Descripcion: IMPRESORA FISCAL
+Articulo: 88042, Rama: 1-3623-3624-3631-3664, Descripcion: NOTEBOOK LENOVO L15 GEN1 20U4S4T000
+Articulo: 89705, Rama: 1-13-3818-4212, Descripcion: DVD KODAK BULK 50U
+Articulo: 95564, Rama: -5130-5133-5134, Descripcion: DIF. PRECIO FRUTAS Y VERDURAS
+Articulo: 99994, Rama: 1-13-3818-4212, Descripcion: BOLSIN SEG. D.B45X40

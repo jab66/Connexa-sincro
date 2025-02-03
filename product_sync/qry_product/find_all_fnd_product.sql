@@ -1,0 +1,5 @@
+select id, base_price, description, ext_code, label_value, sku, timestamp, brand_id, category_id,currency_id,
+label_uom_id, manufacturer_id, sales_uom_id, status_id, image
+from fnd_product --where ext_code in ('629', '552', '2652', '3231', '4240', '8876')
+
+
