@@ -83,3 +83,20 @@
 2025-01-31 17:31:03,469 - INFO - #
 2025-01-31 17:31:08,333 - INFO - Total de productos seteados en 'null' su id de categoria: 0
 2025-01-31 17:31:08,333 - INFO - Total de categorias eliminadas en la tabla fnd_category: 0
+2025-02-06 17:18:04,442 - INFO - **********************************************************************
+2025-02-06 17:18:08,903 - INFO - #
+2025-02-06 17:18:08,903 - INFO - # Verificacion de las categorias entre Diarco y Connexa
+2025-02-06 17:18:08,903 - INFO - #
+2025-02-06 17:18:18,639 - INFO - Total de Categorias recuperadas en Diarco: 2556
+2025-02-06 17:18:20,374 - INFO - Total de Categorias recuperadas en Connexa: 2557
+2025-02-06 17:18:22,612 - INFO - Total de categorias nuevas: 0
+2025-02-06 17:18:22,612 - INFO - #
+2025-02-06 17:18:22,612 - INFO - # Verificacion de las descripciones
+2025-02-06 17:18:22,612 - INFO - #
+2025-02-06 17:18:23,854 - INFO - Total de Categorias recuperadas en Connexa: 2557
+2025-02-06 17:18:35,971 - INFO - Total de categorias que cambiaron su descripcion: 0
+2025-02-06 17:18:35,971 - INFO - #
+2025-02-06 17:18:35,971 - INFO - # Verificacion de las categorias eliminadas en el origen
+2025-02-06 17:18:35,971 - INFO - #
+2025-02-06 17:18:51,228 - INFO - Total de productos seteados en 'null' su id de categoria: 0
+2025-02-06 17:18:51,228 - INFO - Total de categorias eliminadas en la tabla fnd_category: 0

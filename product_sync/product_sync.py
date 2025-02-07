@@ -87,18 +87,51 @@ def sincronizar_datos():
             ]  
         product_func.update_fnd_product(datos=tuples)
 
-    print(f"Productos no categorizados correctamente: {no_categorizados}")
+    print(f"Cantidad de productos no categorizados: {no_categorizados}")
 
     if sin_categorizar:
         product_func.create_file_sin_categorizar(sin_categorizar=sin_categorizar)
-        # with open("sin_categorizar.txt", "a") as archivo:
-        #     for nombre in sin_categorizar:
-        #         archivo.write(f"{nombre}\n") 
+        with open(f"{product_func.folder}sin_categorizar.txt", "a") as archivo:
+            for nombre in sin_categorizar:
+                archivo.write(f"{nombre}\n") 
+
+    product_func.commit()
+
+
+    # Productos en connexa que no están en diarco (se inactivan)
+    
+    # obtener los productos de Diarco
+    df_diarco = product_func.create_df_m_3_articulos()
+    print(f"Total de Productos recuperados en Diarco: {len(df_diarco)}")  
+
+     # obtener el dataframe de los productos de Connexa
+    df_connexa = product_func.create_df_fnd_product() 
+    print(f"Total de Productos recuperados en Connexa: {len(df_connexa)}")  
+
+    # cambiar el tipo de campo a aquellos campos que serán de igualdad en el df_resultado
+    df_connexa['ext_code'] = df_connexa['ext_code'].astype(str)
+    df_diarco['c_articulo'] = df_diarco['c_articulo'].astype(str)
+
+    # Filtrar los registros de df_connexa que no están en df_diarco
+    df_resultado = df_connexa[~df_connexa['ext_code'].isin(df_diarco['c_articulo'])]
+    print(f"Total de Productos en Connexa para marcar de inactivos: {len(df_resultado)}")  
+
+    # Guardar el DataFrame en un archivo CSV
+    df_resultado.to_csv(f'{product_func.folder}productos_inactivos.csv', index=False)  
+
+    # Convertir el DataFrame a una lista de diccionarios
+    lista_dict = df_resultado.to_dict(orient='records')
+
+    if lista_dict:  # modificar informacion de los productos
+        # Convertir a tuplas
+        tuples = [
+            (2, record['ext_code'])
+            for record in lista_dict
+            ]  
+        product_func.update_fnd_product_status(datos=tuples)
 
     product_func.commit()
     product_func.close_connections()
-
-
 
 
 if __name__ == "__main__":

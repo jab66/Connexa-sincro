@@ -31,6 +31,8 @@ class ProductFunc:
         self.qry_insert_fnd_product = f"{self.folder_query}{os.sep}insert_fnd_product.sql"
         self.qry_find_all_fnd_category = f"{self.folder_query}{os.sep}find_all_fnd_category.sql"
         self.qry_update_fnd_product = f"{self.folder_query}{os.sep}update_fnd_product.sql"
+        self.qry_update_fnd_product_inactive = f"{self.folder_query}{os.sep}update_fnd_product_inactive.sql"
+
 
 
     def connect_db_origen(self):
@@ -120,6 +122,21 @@ class ProductFunc:
         df = pd.DataFrame(lista, columns=columns)     
         return df    
 
+
+    def create_df_m_3_articulos(self):
+        """
+        Metodo para crear el Dataframe de los productos de Diarco
+
+        Return: dataframe
+        """
+        # definir las columnas de la consulta
+        columns = ['c_articulo', 'n_articulo', 'precio_compra', 'ean', 'f_proc', 'rama']
+        # obtengo los productos
+        lista = self.find_all_m_3_articulos()
+        # crear el dataframe
+        df = pd.DataFrame(lista, columns=columns)     
+        return df 
+    
     
     def create_df_fnd_category(self):
         """
@@ -191,6 +208,18 @@ class ProductFunc:
         Return: None
         """ 
         with open(self.qry_update_fnd_product, 'r') as archivo:
+            qry = archivo.read()
+
+        extras.execute_batch(self.cursor_destino, qry, datos)
+
+
+    def update_fnd_product_status(self, datos):
+        """
+        Metodo para actualizar los estados de los articulos en Connexa
+
+        Return: None
+        """ 
+        with open(self.qry_update_fnd_product_inactive, 'r') as archivo:
             qry = archivo.read()
 
         extras.execute_batch(self.cursor_destino, qry, datos)
