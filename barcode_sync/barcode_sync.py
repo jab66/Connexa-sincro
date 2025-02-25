@@ -20,7 +20,7 @@ def sincronizar_datos():
     df_barcode_connexa = barcode_func.create_df_fnd_barcode() 
     print(f"df barcode connexa: {len(df_barcode_connexa)}")
 
-    # obtener el dataframe de los productos de Connexa
+    # obtener el dataframe de los productos de Diarco
     df_productos_diarco = barcode_func.create_df_m_3_articulos()
     print(f"df productos diarco: {len(df_productos_diarco)}")
 
@@ -30,10 +30,14 @@ def sincronizar_datos():
 
     count_barcode_fail = 0
     not_found_product_connexa = 0
+    quantity = 0
 
     # se recorre el dataframe de productos de diarco
     for index, row in df_productos_diarco.iterrows():
-    
+
+        quantity = row["q_factor_cpra_sucu"]
+        unidad_compra = row["d_codigo_abrev_cpra"]
+
         # buscar el producto en connexa 
         reg = df_productos_connexa.query(f'ext_code == "{row["c_articulo"]}"') 
 
@@ -51,6 +55,9 @@ def sincronizar_datos():
                     if estado:
                         # determinar el tipo de EAN              
                         codigo_ean = {13: 1, 14: 5, 8: 11}.get(len(valor), 0)
+                        uom_id = {"CM3":"cm3", "M2":"m2",
+                                  "UNID":"unidad", "ML":"ml",
+                                  "GRM":"g", "KG":"kg", "L":"l"}.get(unidad_compra, "--")
 
                         if codigo_ean != 0:
 
@@ -61,8 +68,8 @@ def sincronizar_datos():
                                 "barcode": valor,
                                 "timestamp": datetime.datetime.now(),
                                 "product_id": id_product,
-                                "quantity": 0,
-                                "uom_id": 'kg',
+                                "quantity": {'dun14':quantity}.get(col, 1),
+                                "uom_id": uom_id,
                                 "barcode_type_id": codigo_ean
                             }
 
@@ -86,17 +93,27 @@ def sincronizar_datos():
     # Convertir la lista a un DataFrame
     df = pd.DataFrame(filas, columns=['id', 'barcode','timestamp', 'product_id', 'quantity', 'uom_id', 'barcode_type_id'])
     df_sin_duplicados = df.drop_duplicates(subset="barcode")
-    print(f"DF sin duplicados: {df_sin_duplicados}")
+    # print(f"DF sin duplicados: {df_sin_duplicados}")
+
+
+    if (not df_sin_duplicados.empty):
+        # FORMA 1     
+        # barcode_func.insert_barcode_from_dataframe(df=df_sin_duplicados)
+        # FORMA 2
+        barcode_func.insert_barcode_from_csv(df=df_sin_duplicados)
+
+    if (filas_upd):
+        # Convertir a tuplas
+        tuples = [
+            (record['quantity'], record['uom_id'], record['barcode'])
+            for record in filas_upd
+            ]  
+        barcode_func.update_fnd_barcode(datos=tuples)
 
 
 
-    # FORMA 1     
-    # barcode_func.insert_barcode_from_dataframe(df=nuevo_dataframe)
-    # FORMA 2
-    # barcode_func.insert_barcode_from_csv(df=df_sin_duplicados)
-
-    # barcode_func.commit()
-    # barcode_func.close_connections()
+    barcode_func.commit()
+    barcode_func.close_connections()
 
 if __name__ == "__main__":
 

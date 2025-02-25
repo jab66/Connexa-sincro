@@ -30,6 +30,7 @@ class BarcodeFunc:
         self.qry_find_all_fnd_product = f"{self.folder_query}{os.sep}find_all_fnd_product.sql"
         self.qry_insert_fnd_barcode = f"{self.folder_query}{os.sep}insert_fnd_barcode.sql"
         self.qry_find_all_fnd_barcode = f"{self.folder_query}{os.sep}find_all_fnd_barcode.sql"
+        self.qry_update_fnd_barcode = f"{self.folder_query}{os.sep}update_fnd_barcode.sql"
 
 
     def connect_db_origen(self):
@@ -138,7 +139,7 @@ class BarcodeFunc:
         Return: dataframe
         """
         # definir las columnas de la consulta
-        columns = ['c_articulo', 'n_articulo', 'ean', 'ean1', 'ean2', 'ean3', 'ean4', 'dun14']
+        columns = ['c_articulo', 'n_articulo', 'ean', 'ean1', 'ean2', 'ean3', 'ean4', 'dun14', 'q_factor_cpra_sucu', 'd_codigo_abrev_cpra']
         # obtengo los productos
         lista = self.find_all_m_3_articulos()
         # crear el dataframe
@@ -230,4 +231,16 @@ class BarcodeFunc:
             return True
         else:
             return False
+
+
+    def update_fnd_barcode(self, datos):
+        """
+        Metodo para actualizar la tabla barcode en Connexa
+
+        Return: None
+        """         
+        with open(self.qry_update_fnd_barcode, 'r') as archivo:
+            upd = archivo.read()
+
+        extras.execute_batch(self.cursor_destino, upd, datos)
 

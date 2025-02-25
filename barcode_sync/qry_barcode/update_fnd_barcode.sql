@@ -1,0 +1,1 @@
+update fnd_barcode set quantity = %s, uom_id = %s where barcode = %s 
