@@ -27,7 +27,7 @@ def sincronizar_datos():
     sin_categorizar = []
 
     for articulo in productos_diarco:
-        c_articulo, n_articulo, precio_compra, ean, f_proc, rama = articulo
+        c_articulo, n_articulo, precio_compra, ean, f_proc, rama, m_baja = articulo
 
         # Generar un UUID para el producto si es necesario
         product_id = str(uuid.uuid4())
@@ -36,9 +36,9 @@ def sincronizar_datos():
         sku = f"{c_articulo}"
         ext_code = f"{c_articulo}"
             
-        # Definir todos los productos activos (fnd_product_status, 1=Activo)
-        estado = 1
-        
+        # Definir estado de los productos 
+        estado = 1 if m_baja == 'N' else 2
+
         # buscar el id de la categoria del producto
         reg = df_categorias.query(f'ext_code == "{rama}"') 
         if reg.empty:

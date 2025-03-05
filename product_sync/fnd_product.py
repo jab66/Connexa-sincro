@@ -130,7 +130,7 @@ class ProductFunc:
         Return: dataframe
         """
         # definir las columnas de la consulta
-        columns = ['c_articulo', 'n_articulo', 'precio_compra', 'ean', 'f_proc', 'rama']
+        columns = ['c_articulo', 'n_articulo', 'precio_compra', 'ean', 'f_proc', 'rama', 'm_baja']
         # obtengo los productos
         lista = self.find_all_m_3_articulos()
         # crear el dataframe
