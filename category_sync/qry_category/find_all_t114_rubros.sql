@@ -20,7 +20,4 @@ SELECT c_rubro, nullif (c_rubro_padre,0) c_rubro_padre,
 d_rubro nombre_categoria, id_rubro ruta, id_unico, nivel, f_alta, f_baja, m_baja
 FROM arbol_dependencia
 where m_baja = 'N'  
---and split_part(id_unico, '-', 1) = '6'
---and c_rubro_padre = 6 or c_rubro = 6
---and  c_rubro_padre = 10 or c_rubro = 10
 ORDER BY nivel, c_rubro_padre, c_rubro

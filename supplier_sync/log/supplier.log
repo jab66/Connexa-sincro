@@ -1,0 +1,40 @@
+[INFO] 2025-04-22 11:56:23 - Total de proveedorers obtenidos desde origen: 15578
+[INFO] 2025-04-22 11:56:27 - Total de proveedorers obtenidos desde destino: 15578
+[INFO] 2025-04-22 12:18:15 - Total de proveedorers obtenidos desde origen: 15578
+[INFO] 2025-04-22 12:18:18 - Total de proveedorers obtenidos desde destino: 15578
+[ERROR] 2025-04-22 12:35:46 - server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[INFO] 2025-04-22 13:05:17 - Total de proveedorers obtenidos desde origen: 15578
+[INFO] 2025-04-22 13:05:20 - Total de proveedorers obtenidos desde destino: 15578
+[INFO] 2025-04-22 13:06:03 - Cantidad de proveedores a insertar: 0
+[INFO] 2025-04-22 13:06:03 - Cantidad de proveedores a actualizar: 15578
+[INFO] 2025-04-22 13:15:49 - Total de proveedorers obtenidos desde origen: 15578
+[INFO] 2025-04-22 13:15:52 - Total de proveedorers obtenidos desde destino: 15578
+[INFO] 2025-04-22 13:16:33 - Cantidad de proveedores a insertar: 0
+[INFO] 2025-04-22 13:16:33 - Cantidad de proveedores a actualizar: 15578
+[INFO] 2025-04-22 13:20:04 - Total de proveedorers obtenidos desde origen: 15578
+[INFO] 2025-04-22 13:20:07 - Total de proveedorers obtenidos desde destino: 15578
+[INFO] 2025-04-22 13:20:49 - Cantidad de proveedores a insertar: 0
+[INFO] 2025-04-22 13:20:49 - Cantidad de proveedores a actualizar: 15578
+[INFO] 2025-04-22 13:32:16 - Total de proveedorers obtenidos desde origen: 15578
+[INFO] 2025-04-22 13:32:19 - Total de proveedorers obtenidos desde destino: 15577
+[INFO] 2025-04-22 13:33:01 - Cantidad de proveedores a insertar: 1
+[INFO] 2025-04-22 13:33:01 - Cantidad de proveedores a actualizar: 15577
+[INFO] 2025-04-22 13:37:18 - Total de proveedorers obtenidos desde origen: 15578
+[INFO] 2025-04-22 13:37:21 - Total de proveedorers obtenidos desde destino: 15577
+[INFO] 2025-04-22 13:38:02 - Cantidad de proveedores a insertar: 1
+[INFO] 2025-04-22 13:38:02 - Cantidad de proveedores a actualizar: 15577
+[INFO] 2025-04-22 13:38:02 - [('4be4e23f-e4ed-40cb-a5cb-805e3cf596ec', 'BENVENUTO S.A.C.I.                                                                                                                                                                                                                                        ', '30-52551891-0', '4', Timestamp('2024-10-09 16:31:08.487000'), '23a92ea4-423a-43f0-9fab-efacef4a574e')]
+[INFO] 2025-04-22 13:44:38 - Total de proveedorers obtenidos desde origen: 15578
+[INFO] 2025-04-22 13:44:41 - Total de proveedorers obtenidos desde destino: 15578
+[INFO] 2025-04-22 13:45:22 - Cantidad de proveedores a insertar: 0
+[INFO] 2025-04-22 13:45:22 - Cantidad de proveedores a actualizar: 15578
+[INFO] 2025-04-22 13:52:09 - Total de proveedorers obtenidos desde origen: 15578
+[INFO] 2025-04-22 13:52:12 - Total de proveedorers obtenidos desde destino: 15577
+[INFO] 2025-04-22 13:52:53 - Cantidad de proveedores a insertar: 1
+[INFO] 2025-04-22 13:52:53 - Cantidad de proveedores a actualizar: 15577

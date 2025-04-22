@@ -1,0 +1,103 @@
+[INFO] 2025-04-21 22:13:53 - barcode.log
+[INFO] 2025-04-21 22:18:07 - barcode.log
+[INFO] 2025-04-22 00:02:19 - creanado df_productos_connexa
+[INFO] 2025-04-22 00:02:21 - 14524
+[INFO] 2025-04-22 00:07:46 - creanado df_productos_connexa
+[INFO] 2025-04-22 00:07:49 - 14524
+[INFO] 2025-04-22 00:07:49 - creando df_productos_valkimia
+[INFO] 2025-04-22 00:07:52 - 41839
+[INFO] 2025-04-22 00:07:52 - se recorre el dataframe df_productos_connexa
+[INFO] 2025-04-22 00:09:39 - df_all = (17081, 15)
+[INFO] 2025-04-22 00:09:39 - df_articulos_no_encontrados_en_valkimia = (0, 15)
+[INFO] 2025-04-22 00:09:39 - no se creo el archivo articulos_no_encontrados_en_valkimia
+[INFO] 2025-04-22 00:09:39 - df_ean_validacion_false = (1871, 15)
+[INFO] 2025-04-22 00:09:39 - se creo el archivo ean_validacion_false
+[INFO] 2025-04-22 00:09:39 - df_ean_ocurrencias = (390, 15)
+[INFO] 2025-04-22 00:09:39 - se creo el archivo ean_ocurrencias
+[INFO] 2025-04-22 00:09:39 - df_all = (14820, 15)
+[INFO] 2025-04-22 00:09:39 - Se genera el df_all_procesado 
+[INFO] 2025-04-22 00:15:34 - guadar mensaje
+[INFO] 2025-04-22 00:19:13 - guardar mensaje
+[INFO] 2025-04-22 00:19:53 - guardar mensaje
+[INFO] 2025-04-22 00:21:54 - guardar mensaje
+[INFO] 2025-04-22 00:22:40 - guardar mensaje
+[INFO] 2025-04-22 00:23:00 - guardar mensaje
+[INFO] 2025-04-22 00:25:09 - guardar mensaje
+[INFO] 2025-04-22 00:27:25 - guardar mensaje
+[INFO] 2025-04-22 00:28:38 - guardar mensaje
+[INFO] 2025-04-22 00:35:01 - guardar mensaje
+[INFO] 2025-04-22 00:35:25 - creanado df_productos_connexa
+[INFO] 2025-04-22 00:35:27 - 14524
+[INFO] 2025-04-22 00:35:27 - creando df_productos_valkimia
+[INFO] 2025-04-22 00:35:30 - 41839
+[INFO] 2025-04-22 00:35:30 - se recorre el dataframe df_productos_connexa
+[INFO] 2025-04-22 00:36:22 - creanado df_productos_connexa
+[INFO] 2025-04-22 00:36:24 - 14524
+[INFO] 2025-04-22 00:36:24 - creando df_productos_valkimia
+[INFO] 2025-04-22 00:36:27 - 41839
+[INFO] 2025-04-22 00:36:27 - se recorre el dataframe df_productos_connexa
+[INFO] 2025-04-22 00:37:31 - df_all = (17081, 15)
+[INFO] 2025-04-22 00:37:31 - df_articulos_no_encontrados_en_valkimia = (0, 15)
+[INFO] 2025-04-22 00:37:31 - no se creo el archivo articulos_no_encontrados_en_valkimia
+[INFO] 2025-04-22 00:37:31 - df_ean_validacion_false = (1871, 15)
+[INFO] 2025-04-22 00:37:31 - se creo el archivo ean_validacion_false
+[INFO] 2025-04-22 00:37:31 - df_ean_ocurrencias = (390, 15)
+[INFO] 2025-04-22 00:37:31 - se creo el archivo ean_ocurrencias
+[INFO] 2025-04-22 00:37:31 - df_all = (14820, 15)
+[INFO] 2025-04-22 00:37:31 - Se genera el df_all_procesado 
+[INFO] 2025-04-22 00:49:30 - creanado df_productos_connexa
+[INFO] 2025-04-22 00:49:33 - 14524
+[INFO] 2025-04-22 00:49:33 - creando df_productos_valkimia
+[INFO] 2025-04-22 00:49:36 - 41839
+[INFO] 2025-04-22 00:49:36 - se recorre el dataframe df_productos_connexa
+[INFO] 2025-04-22 00:50:39 - df_all = (17081, 15)
+[INFO] 2025-04-22 00:50:39 - df_articulos_no_encontrados_en_valkimia = (0, 15)
+[INFO] 2025-04-22 00:50:39 - no se creo el archivo articulos_no_encontrados_en_valkimia
+[INFO] 2025-04-22 00:50:39 - df_ean_validacion_false = (1871, 15)
+[INFO] 2025-04-22 00:50:39 - se creo el archivo ean_validacion_false
+[INFO] 2025-04-22 00:50:39 - df_ean_ocurrencias = (390, 15)
+[INFO] 2025-04-22 00:50:39 - se creo el archivo ean_ocurrencias
+[INFO] 2025-04-22 00:50:39 - df_all = (14820, 15)
+[INFO] 2025-04-22 00:50:39 - Se genera el df_all_procesado 
+[INFO] 2025-04-22 00:51:35 - creanado df_productos_connexa
+[INFO] 2025-04-22 00:51:38 - 14524
+[INFO] 2025-04-22 00:51:38 - creando df_productos_valkimia
+[INFO] 2025-04-22 00:51:40 - 41839
+[INFO] 2025-04-22 00:51:40 - se recorre el dataframe df_productos_connexa
+[INFO] 2025-04-22 00:52:45 - df_all = (17081, 15)
+[INFO] 2025-04-22 00:52:45 - df_articulos_no_encontrados_en_valkimia = (0, 15)
+[INFO] 2025-04-22 00:52:45 - no se creo el archivo articulos_no_encontrados_en_valkimia
+[INFO] 2025-04-22 00:52:45 - df_ean_validacion_false = (1871, 15)
+[INFO] 2025-04-22 00:52:45 - se creo el archivo ean_validacion_false
+[INFO] 2025-04-22 00:52:45 - df_ean_ocurrencias = (390, 15)
+[INFO] 2025-04-22 00:52:45 - se creo el archivo ean_ocurrencias
+[INFO] 2025-04-22 00:52:45 - df_all = (14820, 15)
+[INFO] 2025-04-22 00:52:45 - Se genera el df_all_procesado 
+[INFO] 2025-04-22 00:53:55 - creanado df_productos_connexa
+[INFO] 2025-04-22 00:53:58 - 14524
+[INFO] 2025-04-22 00:53:58 - creando df_productos_valkimia
+[INFO] 2025-04-22 00:54:01 - 41839
+[INFO] 2025-04-22 00:54:01 - se recorre el dataframe df_productos_connexa
+[INFO] 2025-04-22 00:55:04 - df_all = (17081, 15)
+[INFO] 2025-04-22 00:55:04 - df_articulos_no_encontrados_en_valkimia = (0, 15)
+[INFO] 2025-04-22 00:55:04 - no se creo el archivo articulos_no_encontrados_en_valkimia
+[INFO] 2025-04-22 00:55:04 - df_ean_validacion_false = (1871, 15)
+[INFO] 2025-04-22 00:55:04 - se creo el archivo ean_validacion_false
+[INFO] 2025-04-22 00:55:04 - df_ean_ocurrencias = (390, 15)
+[INFO] 2025-04-22 00:55:04 - se creo el archivo ean_ocurrencias
+[INFO] 2025-04-22 00:55:04 - df_all = (14820, 15)
+[INFO] 2025-04-22 00:55:04 - Se genera el df_all_procesado 
+[INFO] 2025-04-22 00:58:06 - creanado df_productos_connexa
+[INFO] 2025-04-22 00:58:09 - 14524
+[INFO] 2025-04-22 00:58:09 - creando df_productos_valkimia
+[INFO] 2025-04-22 00:58:12 - 41839
+[INFO] 2025-04-22 00:58:12 - se recorre el dataframe df_productos_connexa
+[INFO] 2025-04-22 00:59:16 - df_all = (17081, 15)
+[INFO] 2025-04-22 00:59:16 - df_articulos_no_encontrados_en_valkimia = (0, 15)
+[INFO] 2025-04-22 00:59:16 - no se creo el archivo articulos_no_encontrados_en_valkimia
+[INFO] 2025-04-22 00:59:16 - df_ean_validacion_false = (1871, 15)
+[INFO] 2025-04-22 00:59:16 - se creo el archivo ean_validacion_false
+[INFO] 2025-04-22 00:59:16 - df_ean_ocurrencias = (390, 15)
+[INFO] 2025-04-22 00:59:16 - se creo el archivo ean_ocurrencias
+[INFO] 2025-04-22 00:59:16 - df_all = (14820, 15)
+[INFO] 2025-04-22 00:59:16 - Se genera el df_all_procesado 

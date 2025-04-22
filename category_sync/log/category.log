@@ -1,136 +1,16 @@
-2025-01-29 22:58:46,552 - INFO - **********************************************************************
-2025-01-29 22:58:51,234 - INFO - #
-2025-01-29 22:58:51,234 - INFO - # Verificacion de las categorias entre Diarco y Connexa
-2025-01-29 22:58:51,234 - INFO - #
-2025-01-29 22:58:53,398 - INFO - Total de Categorias recuperadas en Diarco: 2556
-2025-01-29 22:58:55,242 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-01-29 22:59:00,628 - INFO - Total de categorias nuevas: 0
-2025-01-29 22:59:00,628 - INFO - #
-2025-01-29 22:59:00,628 - INFO - # Verificacion de las descripciones
-2025-01-29 22:59:00,628 - INFO - #
-2025-01-29 22:59:02,203 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-01-29 22:59:11,249 - INFO - Total de categorias que cambiaron su descripcion: 0
-2025-01-29 22:59:11,249 - INFO - #
-2025-01-29 22:59:11,249 - INFO - # Verificacion de las categorias eliminadas en el origen
-2025-01-29 22:59:11,249 - INFO - #
-2025-01-29 22:59:18,304 - INFO - Total de productos seteados en 'null' su id de categoria: 0
-2025-01-29 22:59:18,304 - INFO - Total de categorias eliminadas en la tabla fnd_category: 0
-2025-01-29 23:10:03,816 - INFO - **********************************************************************
-2025-01-29 23:10:08,097 - INFO - #
-2025-01-29 23:10:08,097 - INFO - # Verificacion de las categorias entre Diarco y Connexa
-2025-01-29 23:10:08,097 - INFO - #
-2025-01-29 23:10:10,258 - INFO - Total de Categorias recuperadas en Diarco: 2556
-2025-01-29 23:10:12,101 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-01-29 23:10:17,612 - INFO - Total de categorias nuevas: 0
-2025-01-29 23:10:17,612 - INFO - #
-2025-01-29 23:10:17,612 - INFO - # Verificacion de las descripciones
-2025-01-29 23:10:17,612 - INFO - #
-2025-01-29 23:10:19,160 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-01-29 23:10:28,020 - INFO - Total de categorias que cambiaron su descripcion: 0
-2025-01-29 23:10:28,020 - INFO - #
-2025-01-29 23:10:28,020 - INFO - # Verificacion de las categorias eliminadas en el origen
-2025-01-29 23:10:28,020 - INFO - #
-2025-01-29 23:10:34,026 - INFO - Total de productos seteados en 'null' su id de categoria: 0
-2025-01-29 23:10:34,026 - INFO - Total de categorias eliminadas en la tabla fnd_category: 0
-2025-01-29 23:35:40,976 - INFO - **********************************************************************
-2025-01-29 23:35:45,324 - INFO - #
-2025-01-29 23:35:45,324 - INFO - # Verificacion de las categorias entre Diarco y Connexa
-2025-01-29 23:35:45,324 - INFO - #
-2025-01-29 23:35:47,382 - INFO - Total de Categorias recuperadas en Diarco: 2556
-2025-01-29 23:35:49,230 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-01-29 23:35:54,809 - INFO - Total de categorias nuevas: 0
-2025-01-29 23:35:54,809 - INFO - #
-2025-01-29 23:35:54,809 - INFO - # Verificacion de las descripciones
-2025-01-29 23:35:54,809 - INFO - #
-2025-01-29 23:35:56,389 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-01-29 23:36:05,426 - INFO - Total de categorias que cambiaron su descripcion: 0
-2025-01-29 23:36:05,426 - INFO - #
-2025-01-29 23:36:05,426 - INFO - # Verificacion de las categorias eliminadas en el origen
-2025-01-29 23:36:05,426 - INFO - #
-2025-01-29 23:36:11,882 - INFO - Total de productos seteados en 'null' su id de categoria: 0
-2025-01-29 23:36:11,884 - INFO - Total de categorias eliminadas en la tabla fnd_category: 0
-2025-01-29 23:37:45,827 - INFO - **********************************************************************
-2025-01-29 23:37:50,247 - INFO - #
-2025-01-29 23:37:50,247 - INFO - # Verificacion de las categorias entre Diarco y Connexa
-2025-01-29 23:37:50,247 - INFO - #
-2025-01-29 23:37:52,307 - INFO - Total de Categorias recuperadas en Diarco: 2556
-2025-01-29 23:37:54,148 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-01-29 23:38:00,163 - INFO - Total de categorias nuevas: 0
-2025-01-29 23:38:00,163 - INFO - #
-2025-01-29 23:38:00,163 - INFO - # Verificacion de las descripciones
-2025-01-29 23:38:00,163 - INFO - #
-2025-01-29 23:38:01,651 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-01-29 23:38:10,671 - INFO - Total de categorias que cambiaron su descripcion: 0
-2025-01-29 23:38:10,671 - INFO - #
-2025-01-29 23:38:10,671 - INFO - # Verificacion de las categorias eliminadas en el origen
-2025-01-29 23:38:10,671 - INFO - #
-2025-01-29 23:38:17,109 - INFO - Total de productos seteados en 'null' su id de categoria: 0
-2025-01-29 23:38:17,109 - INFO - Total de categorias eliminadas en la tabla fnd_category: 0
-2025-01-31 17:30:49,612 - INFO - **********************************************************************
-2025-01-31 17:30:53,130 - INFO - #
-2025-01-31 17:30:53,130 - INFO - # Verificacion de las categorias entre Diarco y Connexa
-2025-01-31 17:30:53,130 - INFO - #
-2025-01-31 17:30:54,881 - INFO - Total de Categorias recuperadas en Diarco: 2556
-2025-01-31 17:30:56,349 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-01-31 17:30:58,237 - INFO - Total de categorias nuevas: 0
-2025-01-31 17:30:58,237 - INFO - #
-2025-01-31 17:30:58,237 - INFO - # Verificacion de las descripciones
-2025-01-31 17:30:58,237 - INFO - #
-2025-01-31 17:30:59,230 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-01-31 17:31:03,469 - INFO - Total de categorias que cambiaron su descripcion: 0
-2025-01-31 17:31:03,469 - INFO - #
-2025-01-31 17:31:03,469 - INFO - # Verificacion de las categorias eliminadas en el origen
-2025-01-31 17:31:03,469 - INFO - #
-2025-01-31 17:31:08,333 - INFO - Total de productos seteados en 'null' su id de categoria: 0
-2025-01-31 17:31:08,333 - INFO - Total de categorias eliminadas en la tabla fnd_category: 0
-2025-02-06 17:18:04,442 - INFO - **********************************************************************
-2025-02-06 17:18:08,903 - INFO - #
-2025-02-06 17:18:08,903 - INFO - # Verificacion de las categorias entre Diarco y Connexa
-2025-02-06 17:18:08,903 - INFO - #
-2025-02-06 17:18:18,639 - INFO - Total de Categorias recuperadas en Diarco: 2556
-2025-02-06 17:18:20,374 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-02-06 17:18:22,612 - INFO - Total de categorias nuevas: 0
-2025-02-06 17:18:22,612 - INFO - #
-2025-02-06 17:18:22,612 - INFO - # Verificacion de las descripciones
-2025-02-06 17:18:22,612 - INFO - #
-2025-02-06 17:18:23,854 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-02-06 17:18:35,971 - INFO - Total de categorias que cambiaron su descripcion: 0
-2025-02-06 17:18:35,971 - INFO - #
-2025-02-06 17:18:35,971 - INFO - # Verificacion de las categorias eliminadas en el origen
-2025-02-06 17:18:35,971 - INFO - #
-2025-02-06 17:18:51,228 - INFO - Total de productos seteados en 'null' su id de categoria: 0
-2025-02-06 17:18:51,228 - INFO - Total de categorias eliminadas en la tabla fnd_category: 0
-2025-02-25 19:43:02,079 - INFO - **********************************************************************
-2025-02-25 19:43:05,648 - INFO - #
-2025-02-25 19:43:05,648 - INFO - # Verificacion de las categorias entre Diarco y Connexa
-2025-02-25 19:43:05,648 - INFO - #
-2025-02-25 19:43:07,387 - INFO - Total de Categorias recuperadas en Diarco: 2556
-2025-02-25 19:43:08,889 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-02-25 19:43:10,799 - INFO - Total de categorias nuevas: 0
-2025-02-25 19:43:10,799 - INFO - #
-2025-02-25 19:43:10,799 - INFO - # Verificacion de las descripciones
-2025-02-25 19:43:10,799 - INFO - #
-2025-02-25 19:43:11,787 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-02-25 19:43:15,999 - INFO - Total de categorias que cambiaron su descripcion: 0
-2025-02-25 19:43:15,999 - INFO - #
-2025-02-25 19:43:15,999 - INFO - # Verificacion de las categorias eliminadas en el origen
-2025-02-25 19:43:15,999 - INFO - #
-2025-02-25 19:43:20,572 - INFO - Total de productos seteados en 'null' su id de categoria: 0
-2025-02-25 19:43:20,572 - INFO - Total de categorias eliminadas en la tabla fnd_category: 0
-2025-03-03 11:12:17,952 - INFO - **********************************************************************
-2025-03-03 11:12:21,967 - INFO - #
-2025-03-03 11:12:21,967 - INFO - # Verificacion de las categorias entre Diarco y Connexa
-2025-03-03 11:12:21,967 - INFO - #
-2025-03-03 11:12:23,807 - INFO - Total de Categorias recuperadas en Diarco: 2556
-2025-03-03 11:12:25,622 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-03-03 11:12:29,066 - INFO - Total de categorias nuevas: 0
-2025-03-03 11:12:29,066 - INFO - #
-2025-03-03 11:12:29,066 - INFO - # Verificacion de las descripciones
-2025-03-03 11:12:29,066 - INFO - #
-2025-03-03 11:12:30,443 - INFO - Total de Categorias recuperadas en Connexa: 2557
-2025-03-03 11:12:37,587 - INFO - Total de categorias que cambiaron su descripcion: 0
-2025-03-03 11:12:37,587 - INFO - #
-2025-03-03 11:12:37,587 - INFO - # Verificacion de las categorias eliminadas en el origen
-2025-03-03 11:12:37,587 - INFO - #
-2025-03-03 11:12:45,122 - INFO - Total de productos seteados en 'null' su id de categoria: 0
-2025-03-03 11:12:45,122 - INFO - Total de categorias eliminadas en la tabla fnd_category: 0
+[INFO] 2025-04-22 11:01:06 - #
+[INFO] 2025-04-22 11:01:06 - # Verificacion de las categorias entre Diarco y Connexa
+[INFO] 2025-04-22 11:01:06 - #
+[INFO] 2025-04-22 11:01:08 - Total de Categorias recuperadas en Diarco: 2556
+[INFO] 2025-04-22 11:01:10 - Total de Categorias recuperadas en Connexa: 2557
+[INFO] 2025-04-22 11:01:12 - Total de categorias nuevas: 0
+[INFO] 2025-04-22 11:01:12 - #
+[INFO] 2025-04-22 11:01:12 - # Verificacion de las descripciones
+[INFO] 2025-04-22 11:01:12 - #
+[INFO] 2025-04-22 11:01:13 - Total de Categorias recuperadas en Connexa: 2557
+[INFO] 2025-04-22 11:01:19 - Total de categorias que cambiaron su descripcion: 0
+[INFO] 2025-04-22 11:01:19 - #
+[INFO] 2025-04-22 11:01:19 - # Verificacion de las categorias eliminadas en el origen
+[INFO] 2025-04-22 11:01:19 - #
+[INFO] 2025-04-22 11:01:25 - Total de productos seteados en 'null' su id de categoria: 0
+[INFO] 2025-04-22 11:01:25 - Total de categorias eliminadas en la tabla fnd_category: 0

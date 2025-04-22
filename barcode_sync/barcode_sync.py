@@ -1,121 +1,151 @@
 import datetime
-from uuid import uuid4
 import uuid
 import pandas as pd
-from fnd_barcode import BarcodeFunc
+
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from util.logger import Logger
+from barcode_sync.fnd_barcode import BarcodeFunc 
 
 # Función para sincronizar los datos
-def sincronizar_datos():
+def run_barcode_sync():
     """
     Funcion para sincronizar barcode
     """
+    logger = Logger(
+        log_dir="barcode_sync/log",  # o una ruta absoluta si preferís
+        log_filename="barcode.log"
+    )
 
     barcode_func = BarcodeFunc()
 
-    # obtener el dataframe de los productos de Connexa
+    # obtener el dataframe de los productos de Connexa (solo los activos)
+    logger.info("creanado df_productos_connexa")
     df_productos_connexa = barcode_func.create_df_fnd_product() 
-    print(f"df productos connexa: {len(df_productos_connexa)}")
+    logger.info(len(df_productos_connexa))
 
-    # obtener el dataframe de los barcode de Connexa
-    df_barcode_connexa = barcode_func.create_df_fnd_barcode() 
-    print(f"df barcode connexa: {len(df_barcode_connexa)}")
+    # obtener el dataframe de los productos de Valkimia
+    logger.info("creando df_productos_valkimia")
+    df_productos_valkimia = barcode_func.create_df_articulos_valkimia() 
+    logger.info(len(df_productos_valkimia))
 
-    # obtener el dataframe de los productos de Diarco
-    df_productos_diarco = barcode_func.create_df_m_3_articulos()
-    print(f"df productos diarco: {len(df_productos_diarco)}")
+    df_all = pd.DataFrame()
 
+    logger.info("se recorre el dataframe df_productos_connexa")
+    # se recorre el dataframe de productos de connexa
+    for index, row_prod_connexa in df_productos_connexa.iterrows():
 
-    filas=[]
-    filas_upd=[]
+        # buscar el producto en valkimia 
+        # el producto puede estar mas de una vez
+        regs_valkimia = df_productos_valkimia[df_productos_valkimia['codigo_articulo'] == row_prod_connexa["ext_code"]].copy()
 
-    count_barcode_fail = 0
-    not_found_product_connexa = 0
-    quantity = 0
-
-    # se recorre el dataframe de productos de diarco
-    for index, row in df_productos_diarco.iterrows():
-
-        quantity = row["q_factor_cpra_sucu"]
-        unidad_compra = row["d_codigo_abrev_cpra"]
-
-        # buscar el producto en connexa 
-        reg = df_productos_connexa.query(f'ext_code == "{row["c_articulo"]}"') 
-
-        if not reg.empty:
-            # recupero el id de producto
-            id_product = reg.iloc[0]['id']
-            
-            # Recorriendo las columnas ean, ean1, ean2, ean3, ean4
-            for col in ['ean', 'ean1', 'ean2', 'ean3', 'ean4','dun14']:
-                valor = row[col]
-                if valor != '0':
-                    # se controla que sea un EAN valido
-                    estado = barcode_func.control_code_calculator(valor)
-
-                    if estado:
-                        # determinar el tipo de EAN              
-                        codigo_ean = {13: 1, 14: 5, 8: 11}.get(len(valor), 0)
-                        uom_id = {"CM3":"cm3", "M2":"m2",
-                                  "UNID":"unidad", "ML":"ml",
-                                  "GRM":"g", "KG":"kg", "L":"l"}.get(unidad_compra, "--")
-
-                        if codigo_ean != 0:
-
-                            reg_barcode = df_barcode_connexa.query(f'barcode == "{valor}"')
-
-                            nueva_fila = {
-                                "id": str(uuid.uuid4()),
-                                "barcode": valor,
-                                "timestamp": datetime.datetime.now(),
-                                "product_id": id_product,
-                                "quantity": {'dun14':quantity}.get(col, 1),
-                                "uom_id": uom_id,
-                                "barcode_type_id": codigo_ean
-                            }
-
-                            if reg_barcode.empty:
-                                # agregar el producto a la lista para insertar
-                                filas.append(nueva_fila)
-                            else:
-                                # agregar el producto a la lista para modificar
-                                filas_upd.append(nueva_fila)
-                    else:
-                        count_barcode_fail += 1
+        if (not regs_valkimia.empty):
+            # agregar al dataframe de valkimia la informacion de connexa
+            regs_valkimia['id_articulo_connexa'] = row_prod_connexa["id"]
+            regs_valkimia['ext_code'] = row_prod_connexa["ext_code"]
+            regs_valkimia['uuid_barcode'] = regs_valkimia.apply(lambda _: uuid.uuid4(), axis=1)
+            regs_valkimia['timestamp'] = regs_valkimia.apply(lambda _: datetime.datetime.now(), axis=1)
+            regs_valkimia['validacion_ean'] = regs_valkimia['barcode'].apply(barcode_func.control_code_calculator)
+            regs_valkimia['descripcion_producto'] = row_prod_connexa['description']
         else:
-            not_found_product_connexa += 1
+            regs_valkimia['id_articulo_connexa'] = 0
 
-    print(f"Insertar: {len(filas)}")
-    print(f"Update  : {len(filas_upd)}")
-    print(f"Barcode fail: {count_barcode_fail}")
-    print(f"Not found product in Connexa: {not_found_product_connexa}")
+        df_all = pd.concat([df_all, regs_valkimia], ignore_index=True) 
 
-    # se eliminan los barcode duplicados
-    # Convertir la lista a un DataFrame
-    df = pd.DataFrame(filas, columns=['id', 'barcode','timestamp', 'product_id', 'quantity', 'uom_id', 'barcode_type_id'])
-    df_sin_duplicados = df.drop_duplicates(subset="barcode")
-    # print(f"DF sin duplicados: {df_sin_duplicados}")
+    # se agrega la descripcion del EAN
+    df_all['descripcion_ean'] = df_all.apply(
+                    lambda row: barcode_func.descripcionEAN
+                            (row['descripcion_producto'], 
+                                row['unidades_x_bulto'],
+                                row['longitud_barcode']),
+                                axis=1)
+        
+    # Se cuentan las ocurrencias de cada EAN
+    df_all['ean_ocurrencias'] = df_all['barcode'].map(df_all['barcode'].value_counts())
+    
+    #
+    # Se crea el df_all en csv
+    #
+    if (len(df_all)>0):
+        barcode_func.dataFrameToCsv(nombre_archivo="df_all", dataframe=df_all)
+        logger.info(f"df_all = {df_all.shape}")
+
+        #
+        # Productos de Connexa no encontrados en Valkimia
+        #
+        # condicion para eliminar
+        condicion = df_all['id_articulo_connexa'] == 0
+        # almacenar los registros en otro dataframe
+        df_articulos_no_encontrados_en_valkimia = df_all[condicion]
+        # eliminar los registros de df_all
+        df_all = df_all[~condicion]
+
+        logger.info(f"df_articulos_no_encontrados_en_valkimia = {df_articulos_no_encontrados_en_valkimia.shape}")
+
+        if (len(df_articulos_no_encontrados_en_valkimia)>0):
+            barcode_func.dataFrameToCsv(nombre_archivo="articulos_no_encontrados_en_valkimia", 
+                                            dataframe=df_articulos_no_encontrados_en_valkimia)
+            logger.info("se creo el archivo articulos_no_encontrados_en_valkimia")
+        else:
+            logger.info('no se creo el archivo articulos_no_encontrados_en_valkimia')
 
 
-    if (not df_sin_duplicados.empty):
-        # FORMA 1     
-        # barcode_func.insert_barcode_from_dataframe(df=df_sin_duplicados)
-        # FORMA 2
-        barcode_func.insert_barcode_from_csv(df=df_sin_duplicados)
+        #
+        # EAN no pasa la validacion
+        #
+        # condicion para eliminar
+        condicion = df_all['validacion_ean'] == False
+        # almacenar los registros en otro dataframe
+        df_ean_validacion_false = df_all[condicion]
+        # eliminar los registros de df_all
+        df_all = df_all[~condicion]
 
-    if (filas_upd):
-        # Convertir a tuplas
-        tuples = [
-            (record['quantity'], record['uom_id'], record['barcode'])
-            for record in filas_upd
-            ]  
-        barcode_func.update_fnd_barcode(datos=tuples)
+        logger.info(f"df_ean_validacion_false = {df_ean_validacion_false.shape}")
+
+        if (len(df_ean_validacion_false)>0):
+            barcode_func.dataFrameToCsv(nombre_archivo="ean_validacion_false", 
+                                            dataframe=df_ean_validacion_false)
+            logger.info("se creo el archivo ean_validacion_false")
+        else:
+            logger.info('no se creo el archivo ean_validacion_false')
 
 
+        #
+        # Ocurrencia de los ean superior a 1 
+        #
+        # condicion para eliminar
+        condicion = df_all['ean_ocurrencias'] > 1
+        # almacenar los registros en otro dataframe
+        df_ean_ocurrencias = df_all[condicion]
+        # eliminar los registros de df_all
+        df_all = df_all[~condicion]
+
+        logger.info(f"df_ean_ocurrencias = {df_ean_ocurrencias.shape}")
+
+        if (len(df_ean_ocurrencias)>0):
+            barcode_func.dataFrameToCsv(nombre_archivo="ean_ocurrencias", 
+                                            dataframe=df_ean_ocurrencias)
+            logger.info("se creo el archivo ean_ocurrencias")
+        else:
+            logger.info('no se creo el archivo ean_ocurrencias')
+
+
+
+    else:
+        logger.info("df_all sin registros")
+
+    logger.info(f"df_all = {df_all.shape}")
+    barcode_func.dataFrameToCsv(nombre_archivo="df_all_procesado", dataframe=df_all)
+    logger.info("Se genera el df_all_procesado ")
+
+    # eliminar los registros en la tabla fnd_barcode
+    barcode_func.delete_fnd_barcode()
+
+    # insertar los EAN en la tabla de Connexa
+    barcode_func.insert_barcode_from_csv(df=df_all)
 
     barcode_func.commit()
     barcode_func.close_connections()
-
-if __name__ == "__main__":
-
-    sincronizar_datos()
 

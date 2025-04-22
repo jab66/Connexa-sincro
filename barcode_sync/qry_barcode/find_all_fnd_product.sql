@@ -1,4 +1,3 @@
-select id, ext_code
-from fnd_product --where ext_code in ('1313')
-
-
+select id, ext_code, description
+from fnd_product 
+where status_id = 1

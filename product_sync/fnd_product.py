@@ -32,6 +32,8 @@ class ProductFunc:
         self.qry_find_all_fnd_category = f"{self.folder_query}{os.sep}find_all_fnd_category.sql"
         self.qry_update_fnd_product = f"{self.folder_query}{os.sep}update_fnd_product.sql"
         self.qry_update_fnd_product_inactive = f"{self.folder_query}{os.sep}update_fnd_product_inactive.sql"
+        self.qry_find_unidad_venta = f"{self.folder_query}{os.sep}find_unidad_venta.sql"
+        self.qry_update_unidad_venta = f"{self.folder_query}{os.sep}update_unidad_venta.sql"
 
 
 
@@ -187,15 +189,15 @@ class ProductFunc:
                             )
 
 
-    def create_file_sin_categorizar(self, sin_categorizar):
+    def create_file_sin_categorizar(self, ruta, sin_categorizar):
         """
         Metodo para crear el archivo con los productos que no se puedieron categorizar en Connexa
 
         Return: None
         """   
-        file_name =  f"{self.folder}sin_categorizar.txt"
+        # file_name =  f"{self.folder}sin_categorizar.txt"
 
-        with open(file_name, "a") as archivo:
+        with open(ruta, "a") as archivo:
             for nombre in sin_categorizar:
                 archivo.write(f"{nombre}\n") 
 
@@ -248,4 +250,44 @@ class ProductFunc:
             self.conn_origen.close()
         if (self.conn_destino.closed==0):
             self.conn_destino.close()
+
+
+    def create_df_unidad_venta(self):
+        """
+        Metodo para crear el Dataframe con la unidad de venta de cada producto
+
+        Return: dataframe
+        """
+        # definir las columnas de la consulta
+        columns = ['loafum1', 'loafcodigo']
+        # obtengo la unidad de venta de cada producto
+        lista = self.find_unidad_venta()
+        # crear el dataframe
+        df = pd.DataFrame(lista, columns=columns)     
+        return df 
+    
+
+    def find_unidad_venta(self):
+        """
+        Metodo para crear el Dataframe con la unidad de venta de cada producto
+
+        Return: lista de tuplas
+        """ 
+        with open(self.qry_find_unidad_venta, 'r') as archivo:
+            qry = archivo.read()
+
+        self.cursor_origen.execute(qry)
+        return self.cursor_origen.fetchall()
+    
+
+    def update_unidad_venta(self, datos):
+        """
+        Metodo para actualizar los articulos de Diarco
+
+        Return: None
+        """ 
+        with open(self.qry_update_unidad_venta, 'r') as archivo:
+            qry = archivo.read()
+
+        extras.execute_batch(self.cursor_destino, qry, datos)
 

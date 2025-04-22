@@ -1,18 +1,31 @@
-import uuid
 import pandas as pd
-from fnd_product import ProductFunc
+import uuid
+from util.logger import Logger
+
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from product_sync.fnd_product import ProductFunc
 
 # Función para sincronizar los datos
-def sincronizar_datos():
+def run_product_sync():
     """
     Funcion para sincronizar productos
+    Se recuperan los productos de Diarco y se actualiza en Connexa.
+    Tabla de productos de Diarco: M_3_ARTICULOS
+    Tabla de productos de Connexa: FND_PRODUCT
     """
+    logger = Logger(
+        log_dir="product_sync/log",  
+        log_filename="product.log"
+    )
 
     product_func = ProductFunc()
 
     # obtener los productos de Diarco
     productos_diarco = product_func.find_all_m_3_articulos()
-    print(f"Total de Productos recuperados en Diarco: {len(productos_diarco)}")   
+    logger.info(f"Total de Productos recuperados en Diarco: {len(productos_diarco)}")   
 
     # obtener el dataframe de los productos de Connexa
     df_destino = product_func.create_df_fnd_product() 
@@ -44,9 +57,17 @@ def sincronizar_datos():
         if reg.empty:
             no_categorizados += 1
             sin_categorizar.append(f"Articulo: {c_articulo}, Rama: {rama}, Descripcion: {n_articulo}")
-            continue
-        id_value = reg.iloc[0]['id']
+            #continue
 
+        try:
+            if (reg.size != 0):
+                id_value = reg.iloc[0]['id']
+            else:
+                id_value == None
+        except Exception as e:
+            Logger.error(reg, c_articulo, reg.size, e)
+            raise RuntimeError(e)
+        
         # buscar el producto de diarco en connexa
         reg = df_destino.query(f'ext_code == "{c_articulo}"') 
 
@@ -68,7 +89,7 @@ def sincronizar_datos():
             # agregar el producto a la lista para modificar
             filas_upd.append(nueva_fila)
 
-    print(f"Cantidad de productos a insertar: {len(filas)}")
+    logger.info(f"Cantidad de productos a insertar: {len(filas)}")
     if filas:
         # Crear el DataFrame con todas las filas a insertar
         df_new = pd.DataFrame(filas)
@@ -77,7 +98,7 @@ def sincronizar_datos():
         # FORMA 2: generar un csv con dataframe (recomendable para cargas muy grandes)
         # product_func.insert_product_from_csv(df=df_new)
     
-    print(f"Cantidad de productos a modificar: {len(filas_upd)}")
+    logger.info(f"Cantidad de productos a modificar: {len(filas_upd)}")
     if filas_upd:  # modificar informacion de los productos
         # Convertir a tuplas
         tuples = [
@@ -87,11 +108,16 @@ def sincronizar_datos():
             ]  
         product_func.update_fnd_product(datos=tuples)
 
-    print(f"Cantidad de productos no categorizados: {no_categorizados}")
+    logger.info(f"Cantidad de productos no categorizados: {no_categorizados}")
 
     if sin_categorizar:
-        product_func.create_file_sin_categorizar(sin_categorizar=sin_categorizar)
-        with open(f"{product_func.folder}sin_categorizar.txt", "a") as archivo:
+
+        carpeta_txt = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "product_sync", "txt")
+        os.makedirs(carpeta_txt, exist_ok=True)
+        ruta_archivo = os.path.join(carpeta_txt, "sin_categorizar.txt")
+    
+        product_func.create_file_sin_categorizar(ruta_archivo, sin_categorizar)
+        with open(ruta_archivo, "a") as archivo:
             for nombre in sin_categorizar:
                 archivo.write(f"{nombre}\n") 
 
@@ -102,11 +128,11 @@ def sincronizar_datos():
     
     # obtener los productos de Diarco
     df_diarco = product_func.create_df_m_3_articulos()
-    print(f"Total de Productos recuperados en Diarco: {len(df_diarco)}")  
+    logger.info(f"Total de Productos recuperados en Diarco: {len(df_diarco)}")  
 
      # obtener el dataframe de los productos de Connexa
     df_connexa = product_func.create_df_fnd_product() 
-    print(f"Total de Productos recuperados en Connexa: {len(df_connexa)}")  
+    logger.info(f"Total de Productos recuperados en Connexa: {len(df_connexa)}")  
 
     # cambiar el tipo de campo a aquellos campos que serán de igualdad en el df_resultado
     df_connexa['ext_code'] = df_connexa['ext_code'].astype(str)
@@ -114,11 +140,15 @@ def sincronizar_datos():
 
     # Filtrar los registros de df_connexa que no están en df_diarco
     df_resultado = df_connexa[~df_connexa['ext_code'].isin(df_diarco['c_articulo'])]
-    print(f"Total de Productos en Connexa para marcar de inactivos: {len(df_resultado)}")  
+    logger.info(f"Total de Productos en Connexa para marcar de inactivos: {len(df_resultado)}")  
 
     # Guardar el DataFrame en un archivo CSV
-    df_resultado.to_csv(f'{product_func.folder}productos_inactivos.csv', index=False)  
+    carpeta_csv = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "product_sync", "csv")
+    os.makedirs(carpeta_csv, exist_ok=True)
+    ruta_archivo = os.path.join(carpeta_csv, "productos_inactivos.csv")
 
+    df_resultado.to_csv(f'{ruta_archivo}', index=False)
+    
     # Convertir el DataFrame a una lista de diccionarios
     lista_dict = df_resultado.to_dict(orient='records')
 
@@ -130,10 +160,14 @@ def sincronizar_datos():
             ]  
         product_func.update_fnd_product_status(datos=tuples)
 
+
+    # actualizar la unidad de venta
+    df_uv = product_func.create_df_unidad_venta()
+    tuplas = list(df_uv.itertuples(index=False))
+    product_func.update_unidad_venta(tuplas)
+
     product_func.commit()
     product_func.close_connections()
 
 
-if __name__ == "__main__":
-
-    sincronizar_datos()
+   

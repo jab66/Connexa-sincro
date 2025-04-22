@@ -1,35 +1,49 @@
-import os
 import uuid
 import pandas as pd
-import logging
-from fnd_category import CategoryFunc
+from category_sync.fnd_category import CategoryFunc
+from util.logger import Logger
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from category_sync.fnd_category import CategoryFunc
 
 # Función para sincronizar los datos
-def sincronizar_datos():
+def run_category_sync():
     """
-    Funcion para sincronizar categorias de productos
+    Funcion para sincronizar categorias de productos.
+    Se recuperan las categorias de Diarco y se actualiza en Connexa.
+    Tabla de categorias de Diarco: T114_RUBROS
+    Tabla de categorias de Connexa: FND_CATEGORY
     """
+
+    logger = Logger(
+        log_dir="category_sync/log",  
+        log_filename="category.log"
+    )
+
     try:
+        # funcion de la aplicacion de sincronización de categorias
         category_func = CategoryFunc()
 
-        logging.info("#")
-        logging.info("# Verificacion de las categorias entre Diarco y Connexa")
-        logging.info("#")
+        logger.info("#")
+        logger.info("# Verificacion de las categorias entre Diarco y Connexa")
+        logger.info("#")
 
         # obtener el arbol de categorias de Diarco
         categorias_diarco = category_func.find_all_t114_rubros()
-        logging.info(f"Total de Categorias recuperadas en Diarco: {len(categorias_diarco)}")
+        logger.info(f"Total de Categorias recuperadas en Diarco: {len(categorias_diarco)}")
 
         # obtener el arbol de categorias de Connexa
         categorias_connexa = category_func.find_all_fnd_category()
-        logging.info(f"Total de Categorias recuperadas en Connexa: {len(categorias_connexa)}")
+        logger.info(f"Total de Categorias recuperadas en Connexa: {len(categorias_connexa)}")
 
         # obtener el dataframe de las categorias de Connexa
         df_destino = category_func.create_df_fnd_category()
         
         categorias_nuevas = 0
-        # Iterar sobre los datos obtenidos y sincronizarlos
+        # Iterar sobre las categorias de Diarco y sincronizarlas
         for categoria in categorias_diarco:
             c_rubro, c_rubro_padre, nombre_categoria, ruta, id_unico, nivel, f_alta, f_baja, m_baja = categoria
 
@@ -49,19 +63,19 @@ def sincronizar_datos():
                                                 ext_code=id_unico,
                                                 parent_id=category_parent[0])
                 category_func.commit()
-                logging.warning(f"La categoria {id_unico} fue dada de alta en Connexa.")
+                logger.warning(f"La categoria {id_unico} fue dada de alta en Connexa.")
 
                 categorias_nuevas += 1
 
-        logging.info(f"Total de categorias nuevas: {categorias_nuevas}")
+        logger.info(f"Total de categorias nuevas: {categorias_nuevas}")
 
-        logging.info("#")
-        logging.info("# Verificacion de las descripciones")
-        logging.info("#")
+        logger.info("#")
+        logger.info("# Verificacion de las descripciones")
+        logger.info("#")
         
         # volver a obtener el arbol de categorias de Connexa
         categorias_connexa = category_func.find_all_fnd_category()
-        logging.info(f"Total de Categorias recuperadas en Connexa: {len(categorias_connexa)}")
+        logger.info(f"Total de Categorias recuperadas en Connexa: {len(categorias_connexa)}")
         
         # obtener el dataframe de las categorias de Diarco
         df_origen = category_func.create_df_t114_rubros()
@@ -75,7 +89,7 @@ def sincronizar_datos():
         for index, row_1 in df_origen.iterrows():
             registro_2 = df_destino.query(f'ext_code == "{row_1.id_unico}"') 
             if registro_2.empty:
-                logging.error(f"El id_unico {row_1.id_unico} no se encontro en Connexa para veriifcar su descripcion")
+                logger.error(f"El id_unico {row_1.id_unico} no se encontro en Connexa para veriifcar su descripcion")
             else:
                 cat_diarco = row_1.nombre_categoria
                 cat_connexa = registro_2["name"].values[0]
@@ -87,17 +101,17 @@ def sincronizar_datos():
             ext_code_ = registro['ext_code']
             name_ = registro['name']
             name_connexa_ = registro['name_connexa']
-            logging.warning(f"En Connexa se reemplaza la descripcion '{name_connexa_}' por '{name_}' ({ext_code_})")
+            logger.warning(f"En Connexa se reemplaza la descripcion '{name_connexa_}' por '{name_}' ({ext_code_})")
             category_func.update_category(name=name_, ext_code=ext_code_)
             category_func.commit()
             categoiras_modificadas += 1
 
-        logging.info(f"Total de categorias que cambiaron su descripcion: {categoiras_modificadas}")
+        logger.info(f"Total de categorias que cambiaron su descripcion: {categoiras_modificadas}")
 
 
-        logging.info("#")
-        logging.info("# Verificacion de las categorias eliminadas en el origen")
-        logging.info("#")
+        logger.info("#")
+        logger.info("# Verificacion de las categorias eliminadas en el origen")
+        logger.info("#")
 
         # obtener el arbol de categorias de Connexa
         categorias_connexa = category_func.find_all_fnd_category()
@@ -130,7 +144,7 @@ def sincronizar_datos():
                 id, ext_code, desc_categoria, id_producto, desc_producto, cod_producto = relacion
 
                 # se pone en null la categoria del producto
-                logging.warning(f"Se saco de la rama {desc_categoria} ({id}) el producto {desc_producto} ({cod_producto})")
+                logger.warning(f"Se saco de la rama {desc_categoria} ({id}) el producto {desc_producto} ({cod_producto})")
                 category_func.update_fnd_product(id=cod_producto)
                 category_func.commit()
                 productos_null += 1
@@ -139,38 +153,19 @@ def sincronizar_datos():
             category_func.delete_category(id=id_category)
             category_func.commit()
             categorias_eliminadas += 1
-            logging.warning(f"Id de categoria {id_category} ({name_category}) fue eliminada en Connexa.")
+            logger.warning(f"Id de categoria {id_category} ({name_category}) fue eliminada en Connexa.")
 
         
-        logging.info(f"Total de productos seteados en 'null' su id de categoria: {productos_null}")
-        logging.info(f"Total de categorias eliminadas en la tabla fnd_category: {categorias_eliminadas}")
+        logger.info(f"Total de productos seteados en 'null' su id de categoria: {productos_null}")
+        logger.info(f"Total de categorias eliminadas en la tabla fnd_category: {categorias_eliminadas}")
         
 
     except Exception as e:
-        print(f"Ocurrió un error: {e}")
-        logging.error(e)
+        logger.error(e)
     finally:
         # Cerrar los cursores y las conexiones
         category_func.close_connections()
 
 
-if __name__ == "__main__":
-    
-    ruta = f"{os.path.dirname(os.path.abspath(__file__))}{os.sep}log{os.sep}"
-    filename_log = "category.log"
 
-    logging.basicConfig(
-        filename=f"{ruta}{filename_log}", 
-        level=logging.INFO,  
-        format='%(asctime)s - %(levelname)s - %(message)s' ,
-        encoding='utf-8'
-    )
-    
-    if os.getenv('CONNEXA_PLATFORM_LOGGING_SYNC', 'False') == 'True':
-        logging.getLogger().setLevel(logging.DEBUG) 
-        logging.info("*"*70)
-    else:
-        logging.getLogger().setLevel(logging.CRITICAL)
-
-    sincronizar_datos()
 
